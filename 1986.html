@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TX HS Wrestling</title>
+        <style>
+            .table-container {
+                width: 48%;
+                float: left;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            table {
+            border-collapse: collapse; /* Ensures borders are joined */
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            }
+            th, td {
+            border: 1px solid black; /* Adds borders to cells */
+            padding: 8px;
+            text-align: left;
+            }
+            th {
+            background-color: #f2f2f2; /* Optional: header styling */
+            }
+            h1 {
+            text-align: center; /* Centers the header */
+            }
+            h2 {
+            text-align: center; /* Centers the header */
+            }
+            h3 {
+            text-align: center; /* Centers the header */
+            }
+            .red-text {
+            color: red; /* Changes text color to red */
+            }
+            .reduced-spacing-h3 {
+            margin-top: 0;   
+            margin-bottom: 0; 
+            padding-top: 0;   
+            padding-bottom: 0; 
+            padding-left: 0;   
+            padding-right: 0;  
+            }
+                        /* This container will hold each row of two tables */
+            .table-row-flex {
+                display: flex;
+                justify-content: center; /* Centers the two tables within this row */
+                gap: 2%; /* Gap between the two tables in a row */
+                margin-bottom: 20px; /* Space between rows of tables */
+                /* Optional: max-width for the row itself, if you want to limit how wide the rows can get before wrapping */
+                max-width: 1000px; /* Adjust based on desired overall width for two tables + gap */
+                margin-left: auto; /* Center the row itself on the page */
+                margin-right: auto; /* Center the row itself on the page */
+            }
+
+            /* This will be the wrapper for each individual table */
+            .table-wrapper {
+                flex: 0 0 49%; /* Each table takes 49% of the row, allows for 2% gap */
+                /* flex-grow: 0; flex-shrink: 0; flex-basis: 49%; */
+                box-sizing: border-box; /* Include padding/border in width calculation */
+                /* The h2 inside the table-wrapper should also be centered, as it holds the weight class number */
+            }
+            .table-wrapper h2 {
+                margin-top: 0; /* Adjust spacing of the H2 above the table */
+                margin-bottom: 5px;
+            }
+
+            /* Styles for your Team Scores section (from previous discussion, confirmed working) */
+            .two-column-container {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+            .column-one,
+            .column-two {
+                list-style: none;
+                list-style-position: inside;
+                padding: 0;
+                margin: 0;
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: auto; /* Default basis is content size */
+                min-width: 250px; /* Adjust as needed */
+                text-align: left;
+            }
+            .column-one li,
+            .column-two li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>1986 Texas State Wrestling Tournament</h1>
+        <p style="text-align: center;">Sources:<br>1986 State Tournament Program, provided by John Johnson<br>1987 State Tournament Program, provided by Pete Grieder</p>
+        <h2 class="red-text">MISSING:<br>Complete team scores and placings<br>Most oustanding wrestler</h2>
+        <h2>
+            Team Scores*
+        </h2>
+        <div class="two-column-container">
+            <ul class="column-one">
+                <li>1. Amarillo Caprock - 118.5</li>
+                <li>2. Irving MacArthur - 114</li>
+                <li>3. Amarillo - 69</li>
+                <li>4. Dallas Skyline - 68.5</li>
+                <li>4. RL Turner - 68.5</li>
+                <li>6. Eastwood - 66</li>
+                <li>7. Irving - 65.5</li>
+                <li>8. St. Mark's 63.5</li>
+                <li>9. Carrollton Newman Smith - 48.5</li>
+                <li>10. El Paso Bowie - 48</li>
+            </ul>
+            <ul class="column-two">
+                <li>11. Euless Trinity - 40.5</li>
+                <li>12. Irving Nimitz - 39.5</li>
+                <li>13. San Antonio Madison - 39</li>
+                <li>14. Amarillo Tascosa - 35</li>
+                <li>15. Lewisville - 32.5</li>
+                <li>16. Richardson Berkner - 31.5</li>
+                <li>16. Richardson J.J. Pearce - 31.5</li>
+                <li>18. Dallas Bryan Adams - 31</li>
+                <li>19. Dallas Highland Park - 30.5</li>
+                <li>20. Lewisville Marcus - 30.5</li>
+            </ul>
+        </div>
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>98</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Shawn Brown</td><td>Amarillo Tascosa</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Holme Oltrogge</td><td>St. Mark's</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Brent McGee</td><td>Lewisville Marcus</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Oscar Chanez</td><td>El Paso Eastwood</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Jay Ashmore</td><td>Dallas Jesuit</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Brett Britton</td><td>Amarillo</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>105</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Galen Reid</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>H.E. Burchard</td><td>Boys Ranch</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Ruben Hernandez</td><td>El Paso Eastwood</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Alan London</td><td>Richardson Berkner</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>John Scott</td><td>Austin Travis</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Colin Carrell</td><td>Bishop Lynch</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>112</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Tommy Goodman</td><td>RL Turner</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Paul Ramirez</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Zane Braggs</td><td>Dallas Skyline</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Danny White</td><td>San Antonio Madison</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Eric Reising</td><td>Lewisville Marcus</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Dago Morales</td><td>El Paso Jefferson</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>119</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Matt Miller</td><td>Irving</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Mark Schumpert</td><td>Irving Nimitz</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Mike Manderfield</td><td>Carrollton Newman Smith</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Kevin Cashman</td><td>Conroe Oak Ridge</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Howard Jones</td><td>Dallas Lincoln</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>MAtt Wilkerson</td><td>Dallas Jesuit</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>126</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>David Wright</td><td>Irving</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Jack Campbell</td><td>Houston Lumberton</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Reyno Arredondo</td><td>St. Mark's</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Penn Laird</td><td>Dallas Highland Park</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Steve Case</td><td>Lewisville</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>John Orosco</td><td>Amarillo Palo Duro</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>132</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Taylor Cheek</td><td>St. Mark's</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Shannon Ward</td><td>Irving MacArthur</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Rodney Hyder</td><td>Texas School for the Blind</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Ray Torrez</td><td>Lubbock</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Tracey Day</td><td>Dallas Skyline</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Donnie Gatlin</td><td>Amarillo</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>138</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>John Johnson</td><td>Amarillo</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Mike Stovall</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Derek Doss</td><td>Dallas Skyline</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Guillermo Martinez</td><td>El Paso Jefferson</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Steve Rogers</td><td>Euless Trinity</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Robert Mitchell</td><td>Dallas Bryan Adams</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>145</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Fay Barnett</td><td>Irving MacArthur</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Dickie Gomez</td><td>Carrollton Newman Smith</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Joey Gonzalez</td><td>El Paso Eastwood</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Tracy Cleveland</td><td>Richardson Berkner</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>John Gallegos</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Eric Peterson</td><td>San Antonio Madison</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>155</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Barron Upchurch</td><td>Irving MacArthur</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Eric Sauers</td><td>Austin Lanier</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Troy Hagar</td><td>Lewisville</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Mark Alva</td><td>El Paso Eastwood</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Vincent Durham</td><td>Dallas Skyline</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Donnie McCollum</td><td>Carrollton RL Turner</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>167</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Bill Ratliff</td><td>Richardson</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Dennis Hammer</td><td>Irving Nimitz</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Steve Hernandez</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Jose Flores</td><td>El Paso Irvin</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Richard Sandoval</td><td>El Paso Bowie</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Tim Ryan</td><td>Dallas Highland Park</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>176</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Brad Knouse</td><td>Irving MacArthur</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Mark Ricker</td><td>San Antonio Roosevelt</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>James Enin-Okut</td><td>Carrollton RL Turner</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Ernesto DeLa Pena</td><td>El Paso Hanks</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Charlie Bayouth</td><td>Lubbock Coronado</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Wendell Harry</td><td>Trinity Christian Academy</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>185</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Ryan Diaz</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Paul Alder</td><td>Amarillo</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Matt Fairchild</td><td>Dallas Bryan Adams</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Dickye Thomas</td><td>South Oak Cliff</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Don Morton</td><td>San Antonio Madison</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Carlos Franco</td><td>El Paso Irvin</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>275</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Grant Glewwe</td><td>Richardson J.J. Pearce</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Robert Ortega</td><td>El Paso Bowie</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Joey O'Mara</td><td>Plano East</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Gerald Ferguson</td><td>Euless Trinity</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Joe Alvarez</td><td>Irving</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Jerry Woods</td><td>Amarillo Tascosa</td></tr>
+                </table>
+            </div>
+        </div>
+        <h2>
+            See a mistake? Please email me at 
+            <a href="mailto:youtt@txhswrestling.com">youtt@txhswrestling.com</a>.
+        </h2>
+    </body>
+</html>
