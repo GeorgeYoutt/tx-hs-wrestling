@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TX HS Wrestling</title>
+        <style>
+            .table-container {
+                width: 48%;
+                float: left;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            table {
+            border-collapse: collapse; /* Ensures borders are joined */
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            }
+            th, td {
+            border: 1px solid black; /* Adds borders to cells */
+            padding: 8px;
+            text-align: left;
+            }
+            th {
+            background-color: #f2f2f2; /* Optional: header styling */
+            }
+            h1 {
+            text-align: center; /* Centers the header */
+            }
+            h2 {
+            text-align: center; /* Centers the header */
+            }
+            h3 {
+            text-align: center; /* Centers the header */
+            }
+            .red-text {
+            color: red; /* Changes text color to red */
+            }
+            .reduced-spacing-h3 {
+            margin-top: 0;   
+            margin-bottom: 0; 
+            padding-top: 0;   
+            padding-bottom: 0; 
+            padding-left: 0;   
+            padding-right: 0;  
+            }
+                        /* This container will hold each row of two tables */
+            .table-row-flex {
+                display: flex;
+                justify-content: center; /* Centers the two tables within this row */
+                gap: 2%; /* Gap between the two tables in a row */
+                margin-bottom: 20px; /* Space between rows of tables */
+                /* Optional: max-width for the row itself, if you want to limit how wide the rows can get before wrapping */
+                max-width: 1000px; /* Adjust based on desired overall width for two tables + gap */
+                margin-left: auto; /* Center the row itself on the page */
+                margin-right: auto; /* Center the row itself on the page */
+            }
+
+            /* This will be the wrapper for each individual table */
+            .table-wrapper {
+                flex: 0 0 49%; /* Each table takes 49% of the row, allows for 2% gap */
+                /* flex-grow: 0; flex-shrink: 0; flex-basis: 49%; */
+                box-sizing: border-box; /* Include padding/border in width calculation */
+                /* The h2 inside the table-wrapper should also be centered, as it holds the weight class number */
+            }
+            .table-wrapper h2 {
+                margin-top: 0; /* Adjust spacing of the H2 above the table */
+                margin-bottom: 5px;
+            }
+
+            /* Styles for your Team Scores section (from previous discussion, confirmed working) */
+            .two-column-container {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+            .column-one,
+            .column-two {
+                list-style: none;
+                list-style-position: inside;
+                padding: 0;
+                margin: 0;
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: auto; /* Default basis is content size */
+                min-width: 250px; /* Adjust as needed */
+                text-align: left;
+            }
+            .column-one li,
+            .column-two li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>1993 Texas State Wrestling Tournament</h1>
+        <p style="text-align: center;">Sources:<br>1993 State Tournament Results Program, provided by John Johnson</p>
+        <h2>
+            Team Scores
+        </h2>
+        <div class="two-column-container">
+            <ul class="column-one">
+                <li>1. St. Mark's - 179</li>
+                <li>2. El Paso Burges - 96</li>
+                <li>3. Irving MacArthur - 94.5</li>
+                <li>4. Amarillo Tascosa - 92</li>
+                <li>5. Amarillo - 73.5</li>
+                <li>6. The Colony - 71.5</li>
+                <li>7. El Paso Hanks - 71</li>
+                <li>8. El Paso Eastwood - 70.5</li>
+                <li>9. Pampa - 63</li>
+                <li>10. Richardson Berkner - 59</li>
+                <li>11. Highland Park - 58.5</li>
+                <li>12. Boys Ranch - 55</li>
+                <li>13. Richardson - 53.5</li>
+                <li>13. R.L. Turner - 53.5</li>
+                <li>15. Amarillo Caprock - 53</li>
+                <li>16. El Paso Coronado - 44</li>
+                <li>16. Euless Trinity - 44</li>
+                <li>18. Carrollton Newman Smith - 42</li>
+                <li>18. Plano - 42</li>
+                <li>18. Trinity Christian Academy - 42</li>
+		        <li>21. San Antonio Madison - 41.5</li>
+                <li>22. Dallas Jesuit - 40.5</li>
+                <li>23. El Paso Del Valle - 37</li>
+                <li>23. Amarillo River Road - 37</li>
+                <li>25. Hurst L.D. Bell - 36.5</li>
+                <li>26. El Paso Irvin - 35</li>
+                <li>26. Irving - 35</li>
+                <li>26. Hosuton St. Thomas - 35</li>
+                <li>29. Austin Lyndon B. Johnson - 34</li>
+                <li>30. El Paso Austin - 32</li>
+		        <li>31. El Paso Jefferson - 24</li>
+                <li>31. Pasadena South Houston - 24</li>
+                <li>33. Quinlan-Ford - 23</li>
+                <li>33. El Paso Montwood - 23</li>
+                <li>33. Plano East - 23</li>
+                <li>36. Irving Nimitz - 21</li>
+                <li>37. Dumas - 20</li>
+                <li>37. Dallas Lincoln - 20</li>
+                <li>37. Lubbock Monterey - 20</li>
+                <li>40. El Paso Bowie - 19</li>
+                <li>41. Houston Waltrip - 18</li>
+                <li>41. Dallas W.T. White - 18</li>
+            </ul>
+            <ul class="column-two">
+                <li>43. Lubbock Estacado - 17.5</li>
+                <li>44. El Paso Andress - 16</li>
+                <li>44. Arlington Lamar - 16</li>
+                <li>46. Abilene Cooper - 15.5</li>
+                <li>47. College Station A&M Consolidated - 15</li>
+                <li>47. Dallas Skyline - 15</li>
+                <li>49. San Antonio Clark - 14</li>
+                <li>49. San Antonio Roosevelt - 14</li>
+                <li>51. Lubbock Coronado - 13</li>
+                <li>51. Lubbock - 13</li>
+                <li>53. Lake Highlands - 12</li>
+                <li>54. Austin Lanier - 11</li>
+                <li>54. El Paso Riverside - 11</li>
+                <li>54. Rockwall - 11</li>
+                <li>54. Vernon - 11</li>
+                <li>58. Austin Reagan - 9</li>
+                <li>59. Dallas Bryan Adams - 7</li>
+                <li>59. Richardson J.J. Pearce - 7</li>
+                <li>59. Houston St. John's - 7</li>
+                <li>62. Canyon Randall - 6.5</li>
+		        <li>63. Lubbock Dunbar - 5</li>
+                <li>63. El Paso - 5</li>
+                <li>63. El Paso Socorro - 5</li>
+                <li>66. Austin Bowie - 4</li>
+                <li>66. San Antonio Churchill - 4</li>
+                <li>66. San Antonio Cole - 4</li>
+                <li>66. Houston Kinkaid - 4</li>
+                <li>66. Amarillo Palo Duro - 4</li>
+                <li>71. Austin Anderson - 3</li>
+                <li>71. Stephen F. Austin - 3</li>
+		        <li>71. Austin Travis - 3</li>
+                <li>74. El Paso Bel Air - 2</li>
+                <li>74. Lewisville Marcus - 2</li>
+                <li>76. Fort Worth Country Day - 0</li>
+                <li>76. Dallas Greenhill - 0</li>
+                <li>76. Houston John Cooper - 0</li>
+                <li>76. Austin Johnston - 0</li>
+                <li>76. Lancaster - 0</li>
+                <li>76. Lewisville - 0</li>
+                <li>76. Conroe Oak Ridge - 0</li>
+                <li>76. South Oak Cliff - 0</li>
+            </ul>
+        </div>
+        <h2>
+            Most Outstanding Wrestlers
+        </h2>
+        <p style="text-align: center;">
+	        Richard Nam - 112 - Irving MacArthur<br>
+            Brandon Slay - 171 - Amarillo Tascosa
+        </p>
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>103</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Willie Munoz</td><td>El Paso Hanks</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Hector Ramirez</td><td>El Paso Burges</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Hoang Nguyen</td><td>St. Mark's</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Ricky Jones</td><td>Amarillo River Road</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Mason Thornburg</td><td>Dumas</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Carson Hall</td><td>Highland Park</td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>112</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td>Richard Nam</td><td>Irving MacArthur</td></tr>
+                    <tr><td style="text-align: center;">2</td><td>Scott Gottlich</td><td>St. Mark's</td></tr>
+                    <tr><td style="text-align: center;">3</td><td>Rudy Vargas</td><td>El Paso Irvin</td></tr>
+                    <tr><td style="text-align: center;">4</td><td>Ricky Frausto</td><td>Amarillo Caprock</td></tr>
+                    <tr><td style="text-align: center;">5</td><td>Cippy Estrada</td><td>Houston Waltrip</td></tr>
+                    <tr><td style="text-align: center;">6</td><td>Jose Guevara</td><td>R.L. Turner</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>119</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>125</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>130</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>135</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>140</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>145</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>152</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>160</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>171</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>180</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="table-row-flex">
+            <div class="table-wrapper">
+                <table>
+                    <h2>189</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <h2>275</h2>
+                    <colgroup>
+                        <col style="width: 5%;">
+                        <col style="width: 45%;">
+                        <col style="width: 50%;">
+                    </colgroup>
+                    <tr><td style="text-align: center;">1</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">2</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">3</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">4</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">5</td><td></td><td></td></tr>
+                    <tr><td style="text-align: center;">6</td><td></td><td></td></tr>
+                </table>
+            </div>
+        </div>
+        <p style="text-align: center;"><em>
+            *
+        </em></p>
+        <h2>
+            See a mistake? Please email me at 
+            <a href="mailto:youtt@txhswrestling.com">youtt@txhswrestling.com</a>.
+        </h2>
+    </body>
+
+</html>
