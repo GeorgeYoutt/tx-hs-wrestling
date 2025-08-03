@@ -1,38 +1,90 @@
-1999	95	1	Marissa	Paver	Amarillo Caprock
-1999	95	2	Mari	Martinez	San Antonio Churchill
-1999	95	3	Santisca	Brown	Killeen Ellison
-1999	102	1	Angela	Martinez	Arlington Bowie
-1999	102	2	Crystal	Stone	Austin Anderson
-1999	102	3	Stephanie	Jenkins	El Paso Hanks
-1999	102	4	Melanie	Montgomery	Plano East
-1999	110	1	Heather	Morris	Klein Oak
-1999	110	2	Cathy	Cotter	Arlington Houston
-1999	110	3	Linda	Hoang	Houston Furr
-1999	110	4	Evita	Cortez	El Paso Jefferson
-1999	119	1	Norma	Garcia	Amarillo Caprock
-1999	119	2	Arariah	Rodriguez	Hereford
-1999	119	3	Leici	Hendrix	Katy
-1999	119	4	Lauren	Allen	Arlington
-1999	128	1	Brenda	Malott	Arlington Houston
-1999	128	2	Orquides	Cumpian	Austin Anderson
-1999	128	3	Jackie	Replogle	Klein Oak
-1999	128	4	Katherine	Quinonez	El Paso Hanks
-1999	138	1	Marci	Richardson	Amarillo
-1999	138	2	Rachel	Rodrgiuez	Hereford
-1999	138	3	Darcy	Roman	Arlington
-1999	138	4	Raquel	Reyes	Arlington Houston
-1999	148	1	Tori	Adams	Amarillo Caprock
-1999	148	2	Kristi	Hartman	Katy
-1999	148	3	Ember	Brettman	Arlington Houston
-1999	148	4	Jennifer	Jaime	El Paso Bel Air
-1999	165	1	Brandy	Killingsworth	Arlington Houston
-1999	165	2	Geanie	Jaffe	Arlington Martin
-1999	165	3	Jennifer	Welsh	Plano East
-1999	165	4	Danielle	Garza	Hereford
-1999	185	1	Erica	Coburn	Waller
-1999	185	2	Veronica	Contreras	El Paso Austin
-1999	185	3	Nancy	Garcia	El Paso Irvin
-1999	185	4	Michelle	Caster	Arlington Houston
-1999	215	1	Kara	Armstrong	Arlington
-1999	215	2	Melissa	Yanez	Bryan
-1999	215	3	Sandra	Kitchen	Arlington Houston
+1997	103	1	Chris	Myers	South Houston
+1997	103	2	Jaime	Luna	El Paso Hanks
+1997	103	3	Juan	Ramirez	Vernon
+1997	103	4	Charlie	Hinojosa	El Paso Montwood
+1997	103	5	Clay	Smith	Carrollton Smith
+1997	103	6	Amish	Gupta	Plano
+1997	112	1	Matt	Harrison	Arlington Martin
+1997	112	2	Luke	McConn	St. Thomas
+1997	112	3	Angel	Rodriguez	El Paso Eastwood
+1997	112	4	Luis	Lopez	El Paso Irvin
+1997	112	5	Michael	McInnes	The Kinkaid School
+1997	112	6	Josh	Hernandez	Grapevine
+1997	119	1	Juan	Venturi	South Houston
+1997	119	2	Drew	Carlson	Lewisville Marcus
+1997	119	3	Charlie	Soto	El Paso Hanks
+1997	119	4	Nathan	Romney	Plano East
+1997	119	5	Tim	Cargill	Boys Ranch
+1997	119	6	Chad	Dyer	Arlington Lamar
+1997	125	1	Wade	Biermann	Arlington Bowie
+1997	125	2	Jacob	Luman	Irving MacArthur
+1997	125	3	Zack	White	Dallas Jesuit
+1997	125	4	Chad	Lorenz	Boys Ranch
+1997	125	5	Ryan	Cappelli	Plano
+1997	125	6	Jason	Edwards	Amarillo Tascosa
+1997	130	1	Robert	Rogers	Lewisville Marcus
+1997	130	2	Jesus	Bautista	El Paso Ysleta
+1997	130	3	Derek	Scheihing	Dumas
+1997	130	4	Roman	Villa	El Paso Hanks
+1997	130	5	Seth	Robert	Grapevine
+1997	130	6	Brett	Robinson	Amarillo Tascosa
+1997	135	1	Martine	Apodaca	Amarillo Caprock
+1997	135	2	Aaron	Stregles	Irving MacArthur
+1997	135	3	Ryan	Reser	Richardson Berkner
+1997	135	4	Andy	Thomas	Carrollton Smith
+1997	135	5	Anthony	Perez	Amarillo Tascosa
+1997	135	6	John	Gallant	St. Mark's School of Texas
+1997	140	1	Cedric	Colby	Irving MacArthur
+1997	140	2	Micah	Ladd	Canyon Randall
+1997	140	3	Aaron	Baker	Amarillo Tascosa
+1997	140	4	Scott	Pope	Hurst Bell
+1997	140	5	Matthew	Piñeda	El Paso Del Valle
+1997	140	6	Javier	Garcia	Vernon
+1997	145	1	Danny	Tekle	Boys Ranch
+1997	145	2	Ethan	Dee	Lewisville Marcus
+1997	145	3	Danny	Valdez	El Paso Irvin
+1997	145	4	Trey	Hansen	Dallas Jesuit
+1997	145	5	Clay	Thompson	Arlington Lamar
+1997	145	6	Nathan	Shafer	Irving MacArthur
+1997	152	1	Tony	Chapman	Irving MacArthur
+1997	152	2	Brandon	Gollihugh	Amarillo
+1997	152	3	Keegan	Faris	Dumas
+1997	152	4	Marshall	Kempson	Bishop Lynch
+1997	152	5	David	Traver	El Paso Hanks
+1997	152	6	Adam	Barngrover	Hurst Bell
+1997	160	1	Brenton	Gabbert	Vernon
+1997	160	2	Joseph	Ayitey-Adjin	Richardson Lake Highlands
+1997	160	3	Tim	Haines	Irving MacArthur
+1997	160	4	David	Hargrove	Boys Ranch
+1997	160	5	Chris	Ornelas	El Paso Eastwood
+1997	160	6	Kevin	Grimm	Austin Reagan
+1997	171	1	Wes	James	Boys Ranch
+1997	171	2	Nick	Curcio	Grapevine
+1997	171	3	Zane	Harris	Irving MacArthur
+1997	171	4	Kyle	Conrey	San Antonio Churchill
+1997	171	5	Jeremy	Silva	Carrollton Smith
+1997	171	6	Jeremy	Underwood	El Paso Hanks
+1997	180	1	Rowdy	Lundegreen	Amarillo River Road
+1997	180	2	Brandon	McDowell	Amarillo Tascosa
+1997	180	3	Carl	Clements	Dumas
+1997	180	4	Josh	Cadenhead	Vernon
+1997	180	5	Ryan	De La Vergne	Plano
+1997	180	6	Christian	Rodriguez	Conroe Oak Ridge
+1997	189	1	Tom	Grossman	Shady Grove Christian Academy
+1997	189	2	Chris	York	Austin Bowie
+1997	189	3	Cheyenne	Sharp	Vernon
+1997	189	4	Matt	Van Riper	Richardson Lake Highlands
+1997	189	5	Bobby	Neuhoff	Dallas Jesuit
+1997	189	6	Matt	Swanson	Carrollton Smith
+1997	215	1	Buck	McLamb	Amarillo Tascosa
+1997	215	2	Patrick	Magaña	El Paso Socorro
+1997	215	3	Kevin	Ritcherson	Austin Johnson
+1997	215	4	Tony	Chavez	El Paso
+1997	215	5	Eric	Taylor	Richardson Berkner
+1997	215	6	Valentine	Ejilika	Houston South Houston
+1997	275	1	Alex	Pahulu	Grapevine
+1997	275	2	Lazerius	White	Carrollton Smith
+1997	275	3	Matt	McDevitt	Lewisville
+1997	275	4	Ariel	Famaligi	El Paso Bel Air
+1997	275	5	Kevin	Jordan	Borger
+1997	275	6	Justin	Adams	Amarillo Caprock
