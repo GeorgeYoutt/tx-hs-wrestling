@@ -5,9 +5,7 @@ import collections
 data = []
 with open('tchampsa.txt', encoding='utf-8') as f:
     for line in f:
-        print(f"LINE: {line!r}")  # Add this line
         parts = line.strip().split('\t')
-        print(f"PARTS: {parts}")  # And this line
         if len(parts) == 6:
             year, weight, place, first, last, school = parts
             data.append({
@@ -17,7 +15,6 @@ with open('tchampsa.txt', encoding='utf-8') as f:
                 'name': f"{first} {last}",
                 'school': school
             })
-print(f"Loaded {len(data)} rows")
 # Group by weight
 weights = collections.OrderedDict()
 for entry in data:

@@ -1,2 +1,38 @@
-2012	106	1	Brice	Bassinger	Saginaw
-2012	106	2	D'Andre	Brumfield	Richardson Lake Highlands
+1999	95	1	Marissa	Paver	Amarillo Caprock
+1999	95	2	Mari	Martinez	San Antonio Churchill
+1999	95	3	Santisca	Brown	Killeen Ellison
+1999	102	1	Angela	Martinez	Arlington Bowie
+1999	102	2	Crystal	Stone	Austin Anderson
+1999	102	3	Stephanie	Jenkins	El Paso Hanks
+1999	102	4	Melanie	Montgomery	Plano East
+1999	110	1	Heather	Morris	Klein Oak
+1999	110	2	Cathy	Cotter	Arlington Houston
+1999	110	3	Linda	Hoang	Houston Furr
+1999	110	4	Evita	Cortez	El Paso Jefferson
+1999	119	1	Norma	Garcia	Amarillo Caprock
+1999	119	2	Arariah	Rodriguez	Hereford
+1999	119	3	Leici	Hendrix	Katy
+1999	119	4	Lauren	Allen	Arlington
+1999	128	1	Brenda	Malott	Arlington Houston
+1999	128	2	Orquides	Cumpian	Austin Anderson
+1999	128	3	Jackie	Replogle	Klein Oak
+1999	128	4	Katherine	Quinonez	El Paso Hanks
+1999	138	1	Marci	Richardson	Amarillo
+1999	138	2	Rachel	Rodrgiuez	Hereford
+1999	138	3	Darcy	Roman	Arlington
+1999	138	4	Raquel	Reyes	Arlington Houston
+1999	148	1	Tori	Adams	Amarillo Caprock
+1999	148	2	Kristi	Hartman	Katy
+1999	148	3	Ember	Brettman	Arlington Houston
+1999	148	4	Jennifer	Jaime	El Paso Bel Air
+1999	165	1	Brandy	Killingsworth	Arlington Houston
+1999	165	2	Geanie	Jaffe	Arlington Martin
+1999	165	3	Jennifer	Welsh	Plano East
+1999	165	4	Danielle	Garza	Hereford
+1999	185	1	Erica	Coburn	Waller
+1999	185	2	Veronica	Contreras	El Paso Austin
+1999	185	3	Nancy	Garcia	El Paso Irvin
+1999	185	4	Michelle	Caster	Arlington Houston
+1999	215	1	Kara	Armstrong	Arlington
+1999	215	2	Melissa	Yanez	Bryan
+1999	215	3	Sandra	Kitchen	Arlington Houston
