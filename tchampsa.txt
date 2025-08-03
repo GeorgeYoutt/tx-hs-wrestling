@@ -1,90 +1,60 @@
-1997	103	1	Chris	Myers	South Houston
-1997	103	2	Jaime	Luna	El Paso Hanks
-1997	103	3	Juan	Ramirez	Vernon
-1997	103	4	Charlie	Hinojosa	El Paso Montwood
-1997	103	5	Clay	Smith	Carrollton Smith
-1997	103	6	Amish	Gupta	Plano
-1997	112	1	Matt	Harrison	Arlington Martin
-1997	112	2	Luke	McConn	St. Thomas
-1997	112	3	Angel	Rodriguez	El Paso Eastwood
-1997	112	4	Luis	Lopez	El Paso Irvin
-1997	112	5	Michael	McInnes	The Kinkaid School
-1997	112	6	Josh	Hernandez	Grapevine
-1997	119	1	Juan	Venturi	South Houston
-1997	119	2	Drew	Carlson	Lewisville Marcus
-1997	119	3	Charlie	Soto	El Paso Hanks
-1997	119	4	Nathan	Romney	Plano East
-1997	119	5	Tim	Cargill	Boys Ranch
-1997	119	6	Chad	Dyer	Arlington Lamar
-1997	125	1	Wade	Biermann	Arlington Bowie
-1997	125	2	Jacob	Luman	Irving MacArthur
-1997	125	3	Zack	White	Dallas Jesuit
-1997	125	4	Chad	Lorenz	Boys Ranch
-1997	125	5	Ryan	Cappelli	Plano
-1997	125	6	Jason	Edwards	Amarillo Tascosa
-1997	130	1	Robert	Rogers	Lewisville Marcus
-1997	130	2	Jesus	Bautista	El Paso Ysleta
-1997	130	3	Derek	Scheihing	Dumas
-1997	130	4	Roman	Villa	El Paso Hanks
-1997	130	5	Seth	Robert	Grapevine
-1997	130	6	Brett	Robinson	Amarillo Tascosa
-1997	135	1	Martine	Apodaca	Amarillo Caprock
-1997	135	2	Aaron	Stregles	Irving MacArthur
-1997	135	3	Ryan	Reser	Richardson Berkner
-1997	135	4	Andy	Thomas	Carrollton Smith
-1997	135	5	Anthony	Perez	Amarillo Tascosa
-1997	135	6	John	Gallant	St. Mark's School of Texas
-1997	140	1	Cedric	Colby	Irving MacArthur
-1997	140	2	Micah	Ladd	Canyon Randall
-1997	140	3	Aaron	Baker	Amarillo Tascosa
-1997	140	4	Scott	Pope	Hurst Bell
-1997	140	5	Matthew	Piñeda	El Paso Del Valle
-1997	140	6	Javier	Garcia	Vernon
-1997	145	1	Danny	Tekle	Boys Ranch
-1997	145	2	Ethan	Dee	Lewisville Marcus
-1997	145	3	Danny	Valdez	El Paso Irvin
-1997	145	4	Trey	Hansen	Dallas Jesuit
-1997	145	5	Clay	Thompson	Arlington Lamar
-1997	145	6	Nathan	Shafer	Irving MacArthur
-1997	152	1	Tony	Chapman	Irving MacArthur
-1997	152	2	Brandon	Gollihugh	Amarillo
-1997	152	3	Keegan	Faris	Dumas
-1997	152	4	Marshall	Kempson	Bishop Lynch
-1997	152	5	David	Traver	El Paso Hanks
-1997	152	6	Adam	Barngrover	Hurst Bell
-1997	160	1	Brenton	Gabbert	Vernon
-1997	160	2	Joseph	Ayitey-Adjin	Richardson Lake Highlands
-1997	160	3	Tim	Haines	Irving MacArthur
-1997	160	4	David	Hargrove	Boys Ranch
-1997	160	5	Chris	Ornelas	El Paso Eastwood
-1997	160	6	Kevin	Grimm	Austin Reagan
-1997	171	1	Wes	James	Boys Ranch
-1997	171	2	Nick	Curcio	Grapevine
-1997	171	3	Zane	Harris	Irving MacArthur
-1997	171	4	Kyle	Conrey	San Antonio Churchill
-1997	171	5	Jeremy	Silva	Carrollton Smith
-1997	171	6	Jeremy	Underwood	El Paso Hanks
-1997	180	1	Rowdy	Lundegreen	Amarillo River Road
-1997	180	2	Brandon	McDowell	Amarillo Tascosa
-1997	180	3	Carl	Clements	Dumas
-1997	180	4	Josh	Cadenhead	Vernon
-1997	180	5	Ryan	De La Vergne	Plano
-1997	180	6	Christian	Rodriguez	Conroe Oak Ridge
-1997	189	1	Tom	Grossman	Shady Grove Christian Academy
-1997	189	2	Chris	York	Austin Bowie
-1997	189	3	Cheyenne	Sharp	Vernon
-1997	189	4	Matt	Van Riper	Richardson Lake Highlands
-1997	189	5	Bobby	Neuhoff	Dallas Jesuit
-1997	189	6	Matt	Swanson	Carrollton Smith
-1997	215	1	Buck	McLamb	Amarillo Tascosa
-1997	215	2	Patrick	Magaña	El Paso Socorro
-1997	215	3	Kevin	Ritcherson	Austin Johnson
-1997	215	4	Tony	Chavez	El Paso
-1997	215	5	Eric	Taylor	Richardson Berkner
-1997	215	6	Valentine	Ejilika	Houston South Houston
-1997	275	1	Alex	Pahulu	Grapevine
-1997	275	2	Lazerius	White	Carrollton Smith
-1997	275	3	Matt	McDevitt	Lewisville
-1997	275	4	Ariel	Famaligi	El Paso Bel Air
-1997	275	5	Kevin	Jordan	Borger
-1997	275	6	Justin	Adams	Amarillo Caprock
+2020	5A	95	1	Kylie	Hernandez	El Paso Eastlake
+2020	5A	95	2	Audalie	Cruz	Amarillo Palo Duro
+2020	5A	95	3	Riley	Morrison	Princeton
+2020	5A	95	4	Avery	Stout	Canyon Randall
+2020	5A	95	5	Audree	Garcia	Amarillo Caprock
+2020	5A	95	6	Jacey	Burreson	Frisco Lebanon Trail
+2020	5A	102	1	Avery	Ashley	Lucas Lovejoy
+2020	5A	102	2	Kylie	Robledo	El Paso Hanks
+2020	5A	102	3	Avery	Martinez	Canyon Randall
+2020	5A	102	4	Odelia	Lopez	Corpus Christi Ray
+2020	5A	102	5	Mia	Uvaldo	Carrollton Turner
+2020	5A	102	6	Jadyn	Cordova	Amarillo Palo Duro
+2020	5A	110	1	Sarah	Martinez	El Paso Eastwood
+2020	5A	110	2	Victoria	Nunez	El Paso Hanks
+2020	5A	110	3	Katherine	Heath	Lucas Lovejoy
+2020	5A	110	4	Vanessa	Macedo	Amarillo Caprock
+2020	5A	110	5	Valeria	Davila	Waller
+2020	5A	110	6	Jaryn	Ortegon	Canyon Randall
+2020	5A	119	1	Tabitha	Wood	Frisco Independence
+2020	5A	119	2	Alexis	Montes	El Paso Eastwood
+2020	5A	119	3	Tatiana	Garcia	Amarillo Caprock
+2020	5A	119	4	Annette	Enciso	El Paso Hanks
+2020	5A	119	5	Shelbi	Baker	Carrollton Creekview
+2020	5A	119	6	Emily	Trevino	Mission Sharyland Pioneer
+2020	5A	128	1	Angelina	Prado	El Paso Eastwood
+2020	5A	128	2	Angelina	Baltazar	El Paso Hanks
+2020	5A	128	3	Aubrey	Yauger	Burleson Centennial
+2020	5A	128	4	Kya	Battle	Corpus Christi Veterans Memorial
+2020	5A	128	5	Emily	Corona	Frisco Liberty
+2020	5A	128	6	Maddison	Hill	Leander Glenn
+2020	5A	138	1	Maddie	Sandquist	Humble Kingwood Park
+2020	5A	138	2	Mea	Mohler	Leander Glenn
+2020	5A	138	3	Daniella	Brown	Houston Northside
+2020	5A	138	4	Rebekah	Chavez	El Paso Eastwood
+2020	5A	138	5	Maya	Lewis	Dallas Sunset
+2020	5A	138	6	Sariah	Ferguson	Frisco Independence
+2020	5A	148	1	Kayani	Ayala	El Paso Burges
+2020	5A	148	2	Alana	Curl	New Waverly
+2020	5A	148	3	Bailey	Ford	Burleson Centennial
+2020	5A	148	4	Samantha	Bonilla	El Paso Eastwood
+2020	5A	148	5	Destiny	Rodriguez	Northwest
+2020	5A	148	6	Daley	Burkett	Frisco Liberty
+2020	5A	165	1	Destiny	Miles	Dallas Kimball
+2020	5A	165	2	Princess	Egbuchunam	Frisco Liberty
+2020	5A	165	3	Victoria	Hinojo	El Paso Hanks
+2020	5A	165	4	Belen	Chavez	Fabens
+2020	5A	165	5	Ayanna	Potter	Northwest
+2020	5A	165	6	Makia	English	Bryan Rudder
+2020	5A	185	1	Zoe	Hankins	El Paso Parkland
+2020	5A	185	2	Natalia	Villegas	Corpus Christi Veterans Memorial
+2020	5A	185	3	Malachi	Kyser	Arlington Seguin
+2020	5A	185	4	Ki'Aundra	Green	Dallas Kimball
+2020	5A	185	5	Zipporah	Rios	El Paso Eastwood
+2020	5A	185	6	Aalyah	Villarreal	El Paso Hanks
+2020	5A	215	1	Precious	Hernandez	Donna
+2020	5A	215	2	Mia	Epps-Hicks	Corpus Christi Ray
+2020	5A	215	3	Leilani	Sanchez	El Paso Andress
+2020	5A	215	4	Autumn	Bradley	Northwest
+2020	5A	215	5	Norma	Salomon	Bushland
+2020	5A	215	6	Samyra	Thomas	Houston Kashmere
