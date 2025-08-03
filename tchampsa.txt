@@ -1,0 +1,168 @@
+2022	5A	106	1	Ethan	Sims	Amarillo Tascosa
+2022	5A	106	2	Zach	Miller	Frisco Wakeland
+2022	5A	106	3	Joe	Price	Friendswood
+2022	5A	106	4	Cooper	Chapman	Dallas Highland Park
+2022	5A	106	5	Carlos	Magallanes	Dumas
+2022	5A	106	6	Aidan	Rodriguez	Corpus Christi Veterans Memorial
+2022	5A	113	1	Hunter	Bogner	Dumas
+2022	5A	113	2	Gabe	Aldaco	Grapevine
+2022	5A	113	3	Ashton	Bennert	Canyon Randall
+2022	5A	113	4	Josh	Weatherall	Lewisville The Colony
+2022	5A	113	5	Xavier	Rodela	Burleson Centennial
+2022	5A	113	6	Larry	Layman	Justin Northwest
+2022	5A	120	1	Kenneth	Hendriksen	Carrollton Creekview
+2022	5A	120	2	Josiah	Pina	Amarillo Caprock
+2022	5A	120	3	Jaymez	Ramon	Corpus Christi Moody
+2022	5A	120	4	Noah	Clayton	Midlothian Heritage
+2022	5A	120	5	Paolo	Miranda	Mission Sharyland
+2022	5A	120	6	Rylan	Jones	Canyon Randall
+2022	5A	126	1	Aidan	Medina	Canyon Randall
+2022	5A	126	2	Jayden	Bustillos	El Paso Riverside
+2022	5A	126	3	Jaden	Valdez	Amarillo
+2022	5A	126	4	Jadyn	Johnson	Melissa
+2022	5A	126	5	Hagen	Shipley	Dripping Springs
+2022	5A	126	6	Max	Villasana	Frisco Reedy
+2022	5A	132	1	Gerrett	McChesney	Katy Jordan
+2022	5A	132	2	Thomas	Pacheco	Amarillo Tascosa
+2022	5A	132	3	Eli	Biermann	Midlothian
+2022	5A	132	4	Richard	Davila	Amarillo Caprock
+2022	5A	132	5	Aidan	Burke	Cedar Park
+2022	5A	132	6	Jeremiah	Arredondo	Corpus Christi Moody
+2022	5A	138	1	Zachary	Casias	Lubbock
+2022	5A	138	2	Nathaniel	Ruiz	Amarillo Caprock
+2022	5A	138	3	Ashton	Keller	Corpus Christi Carroll
+2022	5A	138	4	Julian	Marrufo	El Paso
+2022	5A	138	5	Noel	Torres	Mission Sharyland
+2022	5A	138	6	Jaden	Machado	Lancaster
+2022	5A	145	1	Bronson	Baxter	Dumas
+2022	5A	145	2	Xavier	Jukes	Prosper Rock Hill
+2022	5A	145	3	Isaiah	Hunter	Lucas Lovejoy
+2022	5A	145	4	Aaron	Aragon	El Paso Andress
+2022	5A	145	5	Caleb	Juarez	Amarillo Caprock
+2022	5A	145	6	Tim	Cousineau	Kyle Lehman
+2022	5A	152	1	Tyten	Volk	Frisco Centennial
+2022	5A	152	2	Andres	Suarez	Amarillo Tascosa
+2022	5A	152	3	Jarek	Delgado	Dallas Highland Park
+2022	5A	152	4	Dominique	Quiroz	Uvalde
+2022	5A	152	5	Alberto	Elizondo	Pharr-San Juan-Alamo Memorial
+2022	5A	152	6	Jaden	MacKinnon	Conroe Caney Creek
+2022	5A	160	1	Joshua	Thomas	Conroe Caney Creek
+2022	5A	160	2	Jasin	Sejdini	Frisco Centennial
+2022	5A	160	3	David	Ray	Dallas Highland Park
+2022	5A	160	4	Yader	Muller	Katy Paetow
+2022	5A	160	5	June	An	Lubbock
+2022	5A	160	6	Evan	Coupar	Leander Rouse
+2022	5A	170	1	Bryce	Mclaren	Leander Glenn
+2022	5A	170	2	Cortilius	Vann	Frisco Heritage
+2022	5A	170	3	Caleb	Rivera	Bushland
+2022	5A	170	4	Hayden	Ulrich	Colleyville Heritage
+2022	5A	170	5	Brock	Riedel	Dallas Wilson
+2022	5A	170	6	Dominick	Evans	Azle
+2022	5A	182	1	Karson	Tompkins	Midlothian
+2022	5A	182	2	Zeb	Fulmer	Winnsboro
+2022	5A	182	3	Masyn	Marble	Prosper Rock Hill
+2022	5A	182	4	Levi	Slaydon	Amarillo
+2022	5A	182	5	Colby	Feece	Wylie East
+2022	5A	182	6	Micah	Wesley	Amarillo Palo Duro
+2022	5A	195	1	Alex	Zavala	Frisco Heritage
+2022	5A	195	2	Jacob	Hansen	Pflugerville
+2022	5A	195	3	Austin	Blair	Lucas Lovejoy
+2022	5A	195	4	Riley	Marsh	Lubbock Monterey
+2022	5A	195	5	Alec	Rill	Dripping Springs
+2022	5A	195	6	Henry	Bumgarner	Midlothian
+2022	5A	220	1	Payton	Pierce	Lucas Lovejoy
+2022	5A	220	2	De'Leon	Freeman	Frisco Liberty
+2022	5A	220	3	Seth	Smith	Lamar Fulshear
+2022	5A	220	4	Grant	Clarno	Dripping Springs
+2022	5A	220	5	Keagan	Davis	Lubbock
+2022	5A	220	6	Josue	Castillo	Canyon
+2022	5A	285	1	Sam	Reynolds	Lucas Lovejoy
+2022	5A	285	2	Americo	Fuentes	Dallas Hillcrest
+2022	5A	285	3	Daniel	Sanchez	El Paso Andress
+2022	5A	285	4	Tony	Taplin	College Station A&M Consolidated
+2022	5A	285	5	Jacob	Cates	Corpus Christi King
+2022	5A	285	6	Andre	Garbalena	Dumas
+2022	6A	106	1	Isaak	Arevalo	Arlington Martin
+2022	6A	106	2	Miguel	Solis	El Paso Eastwood
+2022	6A	106	3	Ivan	Lopez	South Grand Prairie
+2022	6A	106	4	Kody	Tanimoto	Keller Central
+2022	6A	106	5	Julis	Soltero	Klein Collins
+2022	6A	106	6	Brandon	Carrillo	Klein
+2022	6A	113	1	Eamonn	Jimenez	Killeen Ellison
+2022	6A	113	2	Kelby	Bernard	Allen
+2022	6A	113	3	River	Perlungher	Arlington Martin
+2022	6A	113	4	Juan	Cantu	Houston Westside
+2022	6A	113	5	Jose	Salinas	Katy Seven Lakes
+2022	6A	113	6	Nikolas	Govea	Keller Central
+2022	6A	120	1	Shawn	Ryncarz	Arlington Martin
+2022	6A	120	2	Xavior	Harrell	Houston Cypress Ranch
+2022	6A	120	3	Joseph	Liescheski	Allen
+2022	6A	120	4	Ian	Abdallah	El Paso Franklin
+2022	6A	120	5	Joshua	Garcia	Keller Central
+2022	6A	120	6	Nehemiah	Ventura	Irving
+2022	6A	126	1	Nicholas	Gorman	Bryan
+2022	6A	126	2	Caden	Garcia	Allen
+2022	6A	126	3	Timothy	McGuire	Klein
+2022	6A	126	4	Esteban	Duran	South Grand Prairie
+2022	6A	126	5	Kaleb	Smith	Conroe The Woodlands College Park
+2022	6A	126	6	Zachary	Evans	Arlington Martin
+2022	6A	132	1	Trebor	Moreno	El Paso Eastwood
+2022	6A	132	2	Joseph	Richardson	Prosper
+2022	6A	132	3	Jake	Moon	Rockwall
+2022	6A	132	4	Ezequiel	Valadez	Arlington Martin
+2022	6A	132	5	Mikell	Goodwin	Houston Cypress Lakes
+2022	6A	132	6	Caden	Brown	Allen
+2022	6A	138	1	Kade	Moore	Allen
+2022	6A	138	2	Cole	Bennett	Southlake Carroll
+2022	6A	138	3	Aiden	Valadez	New Braunfels
+2022	6A	138	4	Julian	Garnica	Arlington Bowie
+2022	6A	138	5	Kyle	Lew	Houston Westside
+2022	6A	138	6	Finn	Shepard	Arlington Martin
+2022	6A	145	1	Jakob	Smith	Conroe The Woodlands College Park
+2022	6A	145	2	Jeremy	Manibog	Katy
+2022	6A	145	3	Roberto	Bautista	Klein
+2022	6A	145	4	Julian	Solis	El Paso Pebble Hills
+2022	6A	145	5	Joshua	Moreno	Austin Bowie
+2022	6A	145	6	Gavin	Ramos	El Paso Montwood
+2022	6A	152	1	Caleb	Mata	Houston Clear Lake
+2022	6A	152	2	Juan Pablo	Garcia	Katy
+2022	6A	152	3	Julius	Alfaro	Arlington Martin
+2022	6A	152	4	Mario	Danzi	Allen
+2022	6A	152	5	Abraham	Clinton	Rockwall Heath
+2022	6A	152	6	Kolten	Oborny	Conroe The Woodlands College Park
+2022	6A	160	1	Michael	Bone	Katy Taylor
+2022	6A	160	2	Grayson	Carpenter	Arlington Martin
+2022	6A	160	3	Austin	Hartmangruber	San Antonio Lee
+2022	6A	160	4	Nicholas	Baylis	Klein
+2022	6A	160	5	Leif	Clinton	Rockwall Heath
+2022	6A	160	6	Jakob	Nakamura	Allen
+2022	6A	170	1	Vincenzo	Oliva	Allen
+2022	6A	170	2	Hasnat	Raza	Northwest Nelson
+2022	6A	170	3	Caleb	Sebra	San Antonio Johnson
+2022	6A	170	4	Tomas	Fuentes	Katy Cinco Ranch
+2022	6A	170	5	Mike	Amico	Katy Seven Lakes
+2022	6A	170	6	Isaac	Sheeren	Klein
+2022	6A	182	1	Landon	Marsh	New Braunfels
+2022	6A	182	2	Ryan	Nichols	Allen
+2022	6A	182	3	Jarrett	Stoner	Rockwall
+2022	6A	182	4	Logan	Mantezolo	Northwest Nelson
+2022	6A	182	5	Zachary	Hampton	Austin Vandegrift
+2022	6A	182	6	Logan	Mezger	Dallas Jesuit
+2022	6A	195	1	Farid	Mobarak	Plano West
+2022	6A	195	2	Jay	Stahl	Allen
+2022	6A	195	3	Nico	Lozano	Klein Cain
+2022	6A	195	4	Ethan	House	New Braunfels
+2022	6A	195	5	Robert	Morris	Klein
+2022	6A	195	6	Ethan	Anderson	Houston Cypress-Fairbanks
+2022	6A	220	1	Mohamed	Elgouhari	Allen
+2022	6A	220	2	Tristan	Winters	Keller Timber Creek
+2022	6A	220	3	Peter	Etheredge	Southlake Carroll
+2022	6A	220	4	Brooks	Bittick	Cedar Park Vista Ridge
+2022	6A	220	5	Peyton	Madawi	Plano East
+2022	6A	220	6	Chapel	Love	Klein
+2022	6A	285	1	Rodney	Trotter	Katy
+2022	6A	285	2	Caleb	Jinks	South Grand Prairie
+2022	6A	285	3	Drake	Madole	Allen
+2022	6A	285	4	Kadence	Murry	Lewisville Marcus
+2022	6A	285	5	Roman	Saldana	Weslaco
+2022	6A	285	6	Jacob	Henry	Austin Lake Travis
