@@ -58,3 +58,63 @@
 2020	5A	215	4	Autumn	Bradley	Northwest
 2020	5A	215	5	Norma	Salomon	Bushland
 2020	5A	215	6	Samyra	Thomas	Houston Kashmere
+2020	6A	95	1	Olivia	Degeorgio	Conroe Woodlands College Park
+2020	6A	95	2	Mia	Diaz	Amarillo Tascosa
+2020	6A	95	3	Moe	Cruz	Klein Cain
+2020	6A	95	4	Isabella	Walsh	Katy Cinco Ranch
+2020	6A	95	5	Brooke	Martin	La Joya
+2020	6A	95	6	Chalimarys	Rodriguez	Keller Timber Creek
+2020	6A	102	1	Amanda	Mcaleavey	Cypress Creek
+2020	6A	102	2	Mia	Arceneaux	Rockwall
+2020	6A	102	3	Carlie	Allred	Euless Trinity
+2020	6A	102	4	Zhivanna	Magdaleno	League City Clear Springs
+2020	6A	102	5	Eliana	Martinez	Allen
+2020	6A	102	6	Addison	Garcia	San Antonio Reagan
+2020	6A	110	1	Samara	Chavez	Arlington Martin
+2020	6A	110	2	Carmen	Allred	Euless Trinity
+2020	6A	110	3	Alexis	Hanks	Killeen Ellison
+2020	6A	110	4	Crystal	Venegas	San Antonio Lee
+2020	6A	110	5	Nayeli	Hernandez	Pharr-San Juan-Alamo
+2020	6A	110	6	Karla	Garcia	El Paso Montwood
+2020	6A	119	1	Camille	Fournier	Weatherford
+2020	6A	119	2	Jessica	Crane	Arlington Martin
+2020	6A	119	3	Lilly	Broadrick	Katy Tompkins
+2020	6A	119	4	Jayden	Bazemore	Conroe The Woodlands College Park
+2020	6A	119	5	Sophia	Rivera	Austin Akins
+2020	6A	119	6	Brooke	Zejda	Plano West
+2020	6A	128	1	Devin	Patton	Plano West
+2020	6A	128	2	Illyauna	Martinez	Katy Mayde Creek
+2020	6A	128	3	Sydney	Harper	Euless Trinity
+2020	6A	128	4	Gianna	Moreno	San Marcos
+2020	6A	128	5	Maryellen	Lafferty	Cypress Creek
+2020	6A	128	6	Juliana	Baugher	Prosper
+2020	6A	138	1	Jordan	Suarez	Katy Morton Ranch
+2020	6A	138	2	Krista	Garcia	Katy Seven Lakes
+2020	6A	138	3	Lexie	Basham	Byron Nelson
+2020	6A	138	4	Taylor	Martinez	Prosper
+2020	6A	138	5	Abigail	Denney	Conroe Oak Ridge
+2020	6A	138	6	Saleen	Doblado	El Paso Montwood
+2020	6A	148	1	Leilani	Hernandez	Plano West
+2020	6A	148	2	Nia	Miranda	Cypress Ranch
+2020	6A	148	3	Brooke	Massaviol	Coppell
+2020	6A	148	4	Jason	Foster	Austin Vandegrift
+2020	6A	148	5	Jillian	Wold	Comal Canyon
+2020	6A	148	6	Joylynn	Wegman	Keller Timber Creek
+2020	6A	165	1	Kaitlyn	Bryant	Katy Tompkins
+2020	6A	165	2	Fahydat	Bello	Cypress Park
+2020	6A	165	3	Haley	Wilcox	Euless Trinity
+2020	6A	165	4	Aremie	Steele	El Paso Montwood
+2020	6A	165	5	Marisol	Lopez	Killeen Ellison
+2020	6A	165	6	Caroline	Gonzalez	San Antonio Madison
+2020	6A	185	1	Brittyn	Corbishley	Conroe The Woodlands College Park
+2020	6A	185	2	Nicole	Blinn	Katy Tompkins
+2020	6A	185	3	Daniella	Seely	Haltom
+2020	6A	185	4	Lessly	Sandoval	Conroe
+2020	6A	185	5	Courtney	Kempf	San Antonio Madison
+2020	6A	185	6	Nesmah	Zahran	Katy Taylor
+2020	6A	215	1	Traeh	Haynes	Cibolo Steele
+2020	6A	215	2	Amber	Latta	Conroe Oak Ridge
+2020	6A	215	3	Hannah	Francis	Coppell
+2020	6A	215	4	Valerie	Ramos	Killeen Ellison
+2020	6A	215	5	April	Vera	Haltom
+2020	6A	215	6	Callie	Youngblood	Bridgeland
