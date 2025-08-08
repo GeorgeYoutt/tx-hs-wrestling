@@ -1,120 +1,168 @@
-2020	5A	95	1	Kylie	Hernandez	El Paso Eastlake
-2020	5A	95	2	Audalie	Cruz	Amarillo Palo Duro
-2020	5A	95	3	Riley	Morrison	Princeton
-2020	5A	95	4	Avery	Stout	Canyon Randall
-2020	5A	95	5	Audree	Garcia	Amarillo Caprock
-2020	5A	95	6	Jacey	Burreson	Frisco Lebanon Trail
-2020	5A	102	1	Avery	Ashley	Lucas Lovejoy
-2020	5A	102	2	Kylie	Robledo	El Paso Hanks
-2020	5A	102	3	Avery	Martinez	Canyon Randall
-2020	5A	102	4	Odelia	Lopez	Corpus Christi Ray
-2020	5A	102	5	Mia	Uvaldo	Carrollton Turner
-2020	5A	102	6	Jadyn	Cordova	Amarillo Palo Duro
-2020	5A	110	1	Sarah	Martinez	El Paso Eastwood
-2020	5A	110	2	Victoria	Nunez	El Paso Hanks
-2020	5A	110	3	Katherine	Heath	Lucas Lovejoy
-2020	5A	110	4	Vanessa	Macedo	Amarillo Caprock
-2020	5A	110	5	Valeria	Davila	Waller
-2020	5A	110	6	Jaryn	Ortegon	Canyon Randall
-2020	5A	119	1	Tabitha	Wood	Frisco Independence
-2020	5A	119	2	Alexis	Montes	El Paso Eastwood
-2020	5A	119	3	Tatiana	Garcia	Amarillo Caprock
-2020	5A	119	4	Annette	Enciso	El Paso Hanks
-2020	5A	119	5	Shelbi	Baker	Carrollton Creekview
-2020	5A	119	6	Emily	Trevino	Mission Sharyland Pioneer
-2020	5A	128	1	Angelina	Prado	El Paso Eastwood
-2020	5A	128	2	Angelina	Baltazar	El Paso Hanks
-2020	5A	128	3	Aubrey	Yauger	Burleson Centennial
-2020	5A	128	4	Kya	Battle	Corpus Christi Veterans Memorial
-2020	5A	128	5	Emily	Corona	Frisco Liberty
-2020	5A	128	6	Maddison	Hill	Leander Glenn
-2020	5A	138	1	Maddie	Sandquist	Humble Kingwood Park
-2020	5A	138	2	Mea	Mohler	Leander Glenn
-2020	5A	138	3	Daniella	Brown	Houston Northside
-2020	5A	138	4	Rebekah	Chavez	El Paso Eastwood
-2020	5A	138	5	Maya	Lewis	Dallas Sunset
-2020	5A	138	6	Sariah	Ferguson	Frisco Independence
-2020	5A	148	1	Kayani	Ayala	El Paso Burges
-2020	5A	148	2	Alana	Curl	New Waverly
-2020	5A	148	3	Bailey	Ford	Burleson Centennial
-2020	5A	148	4	Samantha	Bonilla	El Paso Eastwood
-2020	5A	148	5	Destiny	Rodriguez	Northwest
-2020	5A	148	6	Daley	Burkett	Frisco Liberty
-2020	5A	165	1	Destiny	Miles	Dallas Kimball
-2020	5A	165	2	Princess	Egbuchunam	Frisco Liberty
-2020	5A	165	3	Victoria	Hinojo	El Paso Hanks
-2020	5A	165	4	Belen	Chavez	Fabens
-2020	5A	165	5	Ayanna	Potter	Northwest
-2020	5A	165	6	Makia	English	Bryan Rudder
-2020	5A	185	1	Zoe	Hankins	El Paso Parkland
-2020	5A	185	2	Natalia	Villegas	Corpus Christi Veterans Memorial
-2020	5A	185	3	Malachi	Kyser	Arlington Seguin
-2020	5A	185	4	Ki'Aundra	Green	Dallas Kimball
-2020	5A	185	5	Zipporah	Rios	El Paso Eastwood
-2020	5A	185	6	Aalyah	Villarreal	El Paso Hanks
-2020	5A	215	1	Precious	Hernandez	Donna
-2020	5A	215	2	Mia	Epps-Hicks	Corpus Christi Ray
-2020	5A	215	3	Leilani	Sanchez	El Paso Andress
-2020	5A	215	4	Autumn	Bradley	Northwest
-2020	5A	215	5	Norma	Salomon	Bushland
-2020	5A	215	6	Samyra	Thomas	Houston Kashmere
-2020	6A	95	1	Olivia	Degeorgio	Conroe Woodlands College Park
-2020	6A	95	2	Mia	Diaz	Amarillo Tascosa
-2020	6A	95	3	Moe	Cruz	Klein Cain
-2020	6A	95	4	Isabella	Walsh	Katy Cinco Ranch
-2020	6A	95	5	Brooke	Martin	La Joya
-2020	6A	95	6	Chalimarys	Rodriguez	Keller Timber Creek
-2020	6A	102	1	Amanda	Mcaleavey	Cypress Creek
-2020	6A	102	2	Mia	Arceneaux	Rockwall
-2020	6A	102	3	Carlie	Allred	Euless Trinity
-2020	6A	102	4	Zhivanna	Magdaleno	League City Clear Springs
-2020	6A	102	5	Eliana	Martinez	Allen
-2020	6A	102	6	Addison	Garcia	San Antonio Reagan
-2020	6A	110	1	Samara	Chavez	Arlington Martin
-2020	6A	110	2	Carmen	Allred	Euless Trinity
-2020	6A	110	3	Alexis	Hanks	Killeen Ellison
-2020	6A	110	4	Crystal	Venegas	San Antonio Lee
-2020	6A	110	5	Nayeli	Hernandez	Pharr-San Juan-Alamo
-2020	6A	110	6	Karla	Garcia	El Paso Montwood
-2020	6A	119	1	Camille	Fournier	Weatherford
-2020	6A	119	2	Jessica	Crane	Arlington Martin
-2020	6A	119	3	Lilly	Broadrick	Katy Tompkins
-2020	6A	119	4	Jayden	Bazemore	Conroe The Woodlands College Park
-2020	6A	119	5	Sophia	Rivera	Austin Akins
-2020	6A	119	6	Brooke	Zejda	Plano West
-2020	6A	128	1	Devin	Patton	Plano West
-2020	6A	128	2	Illyauna	Martinez	Katy Mayde Creek
-2020	6A	128	3	Sydney	Harper	Euless Trinity
-2020	6A	128	4	Gianna	Moreno	San Marcos
-2020	6A	128	5	Maryellen	Lafferty	Cypress Creek
-2020	6A	128	6	Juliana	Baugher	Prosper
-2020	6A	138	1	Jordan	Suarez	Katy Morton Ranch
-2020	6A	138	2	Krista	Garcia	Katy Seven Lakes
-2020	6A	138	3	Lexie	Basham	Byron Nelson
-2020	6A	138	4	Taylor	Martinez	Prosper
-2020	6A	138	5	Abigail	Denney	Conroe Oak Ridge
-2020	6A	138	6	Saleen	Doblado	El Paso Montwood
-2020	6A	148	1	Leilani	Hernandez	Plano West
-2020	6A	148	2	Nia	Miranda	Cypress Ranch
-2020	6A	148	3	Brooke	Massaviol	Coppell
-2020	6A	148	4	Jason	Foster	Austin Vandegrift
-2020	6A	148	5	Jillian	Wold	Comal Canyon
-2020	6A	148	6	Joylynn	Wegman	Keller Timber Creek
-2020	6A	165	1	Kaitlyn	Bryant	Katy Tompkins
-2020	6A	165	2	Fahydat	Bello	Cypress Park
-2020	6A	165	3	Haley	Wilcox	Euless Trinity
-2020	6A	165	4	Aremie	Steele	El Paso Montwood
-2020	6A	165	5	Marisol	Lopez	Killeen Ellison
-2020	6A	165	6	Caroline	Gonzalez	San Antonio Madison
-2020	6A	185	1	Brittyn	Corbishley	Conroe The Woodlands College Park
-2020	6A	185	2	Nicole	Blinn	Katy Tompkins
-2020	6A	185	3	Daniella	Seely	Haltom
-2020	6A	185	4	Lessly	Sandoval	Conroe
-2020	6A	185	5	Courtney	Kempf	San Antonio Madison
-2020	6A	185	6	Nesmah	Zahran	Katy Taylor
-2020	6A	215	1	Traeh	Haynes	Cibolo Steele
-2020	6A	215	2	Amber	Latta	Conroe Oak Ridge
-2020	6A	215	3	Hannah	Francis	Coppell
-2020	6A	215	4	Valerie	Ramos	Killeen Ellison
-2020	6A	215	5	April	Vera	Haltom
-2020	6A	215	6	Callie	Youngblood	Bridgeland
+2025	5A	106	1	Charles	Alvarez	Midlothian
+2025	5A	106	2	Isaiah	Deleon	Corpus Christi King
+2025	5A	106	3	Jacob	Barrilleaux	Dallas Woodrow Wilson
+2025	5A	106	4	Esteban	Vela	Corpus Christi Veterans Memorial
+2025	5A	106	5	Tobias	Gilman	Argyle
+2025	5A	106	6	Mateo	Barron	El Paso Del Valle
+2025	5A	113	1	Nathan	Reilly	Cedar Park
+2025	5A	113	2	Jaxon	Johnson	Melissa
+2025	5A	113	3	Abraham	Campa Cortes	Canyon Randall
+2025	5A	113	4	Jonas	Casillas	El Paso Del Valle
+2025	5A	113	5	Aiden	Rivera	Amarillo Tascosa
+2025	5A	113	6	Ethan	Cobarrubias	Comal Pieper
+2025	5A	120	1	George	Rodriguez	Uvalde
+2025	5A	120	2	Matthew	Brock	Austin Anderson
+2025	5A	120	3	David	McNally	Liberty Hill Legacy Ranch
+2025	5A	120	4	Eli	Johnson	Frisco Wakeland
+2025	5A	120	5	Andre	Moyron	Carrollton Creekview
+2025	5A	120	6	Jayden	Strauss	El Paso Chapin
+2025	5A	126	1	Michael	Ruiz	Canyon Randall
+2025	5A	126	2	Yusuf	Uribe	Frisco Centennial
+2025	5A	126	3	Max	Brandt	Cedar Park
+2025	5A	126	4	Aidan	Rodriguez	Corpus Christi Veterans Memorial
+2025	5A	126	5	Aiden	Baker	Mission Sharyland
+2025	5A	126	6	Mohamed	Farah	Colleyville Heritage
+2025	5A	132	1	Michael	Brennan	Frisco Wakeland
+2025	5A	132	2	Tyler	Yancey	Azle
+2025	5A	132	3	Colin	McQuone	New Braunfels
+2025	5A	132	4	Enrique	Uribe	Frisco Centennial
+2025	5A	132	5	Rylan	Jones	Canyon Randall
+2025	5A	132	6	Ethan	Gonzales	Edinburg Vela
+2025	5A	138	1	Hunter	Bogner	Dumas
+2025	5A	138	2	Chase	Yancey	Azle
+2025	5A	138	3	Aiden	Valdovinos	Rio Grande City
+2025	5A	138	4	Cruz	Morales	New Braunfels Long Creek
+2025	5A	138	5	Tyler	Ellmann	Corpus Christi Veterans Memorial
+2025	5A	138	6	Enrique	Olivares	Rosenberg Terry
+2025	5A	144	1	Thomas	Pacheco	Amarillo Tascosa
+2025	5A	144	2	Jaxon	Russell	Lubbock
+2025	5A	144	3	Kason	White	Canyon Randall
+2025	5A	144	4	Nicholas	Torres	Mission Sharyland
+2025	5A	144	5	Nathan	Rechtfertig	Cedar Park
+2025	5A	144	6	Josue	Cedeno Mendoza	White Settlement Brewer
+2025	5A	150	1	Bryce	Palmer	Comal Smithson Valley
+2025	5A	150	2	Carter	McLaughlin	Whitehouse
+2025	5A	150	3	Daniel	Acosta	Canyon Randall
+2025	5A	150	4	Johnny	White	Dallas Samuell
+2025	5A	150	5	Ryan	Ortega	Melissa
+2025	5A	150	6	Grayson	Gonzales	Frisco Wakeland
+2025	5A	157	1	Landry	Wilkinson	Fort Worth Benbrook
+2025	5A	157	2	Eli	Silva	Lucas Lovejoy
+2025	5A	157	3	Landin	Lamberth	Amarillo Tascosa
+2025	5A	157	4	Mauricio	Bryant	Leander
+2025	5A	157	5	Honor	Trevino	Lubbock Estacado
+2025	5A	157	6	Quinn	Barrera	Corpus Christi Veterans Memorial
+2025	5A	165	1	Jadyn	Johnson	Melissa
+2025	5A	165	2	Drezdyn	Ballard	Amarillo
+2025	5A	165	3	Quintraylon	Johnson	Dallas Kimball
+2025	5A	165	4	Preston	Kepler	Comal Smithson Valley
+2025	5A	165	5	Leo	Ashurou	Frisco Reedy
+2025	5A	165	6	John	Humphries	College Station
+2025	5A	175	1	Mark	Gallegos	Canyon Randall
+2025	5A	175	2	Gabriel	Ordonez	Lubbock Cooper
+2025	5A	175	3	Torrance	Adkins	San Antonio Veterans Memorial
+2025	5A	175	4	Jett	Mentel	Cedar Park
+2025	5A	175	5	Gage	Herrin	Melissa
+2025	5A	175	6	Reese	Bradford	Birdville
+2025	5A	190	1	Darien	Lewis	Amarillo Palo Duro
+2025	5A	190	2	Roman	Nino	Corpus Christi Carroll
+2025	5A	190	3	Ethan	Browning	McKinney North
+2025	5A	190	4	Paul	Miranda	Carrollton Creekview
+2025	5A	190	5	Brock	McKnight	Lucas Lovejoy
+2025	5A	190	6	Rudy	Velasquez	Midlothian Heritage
+2025	5A	215	1	Amin	Elahmadi	Highland Park
+2025	5A	215	2	Anthony	Fulmer	Winnsboro
+2025	5A	215	3	Brayden	Drager	Canyon
+2025	5A	215	4	Cash	Williams	Anna
+2025	5A	215	5	Brice	Cothrin	Amarillo
+2025	5A	215	6	Yahiya	Hussein-Said	The Colony
+2025	5A	285	1	Jaxon	Johnson	Amarillo Tascosa
+2025	5A	285	2	Joshua	Rodriguez	Clint Horizon
+2025	5A	285	3	Ryder	Hatton	Lubbock Cooper
+2025	5A	285	4	Keegan	McNeil	Winnsboro
+2025	5A	285	5	Strider	Williams	Leander Rouse
+2025	5A	285	6	Ty	Hohenberger	Grapevine
+2025	6A	106	1	Dylan	Ota	Southlake Carroll
+2025	6A	106	2	Hector	Ortiz	El Paso Eastwood
+2025	6A	106	3	Kingston	Stephens	Dallas Jesuit
+2025	6A	106	4	Drew	Brinkmeier	Keller
+2025	6A	106	5	Fernando	Morales	Houston Clear Lake
+2025	6A	106	6	Matthew	Govea	Keller Central
+2025	6A	113	1	Jackson	Shipley	Dripping Springs
+2025	6A	113	2	Cayden	Campbell	Allen
+2025	6A	113	3	Adrian	Fierros	Katy
+2025	6A	113	4	Alexander	Tapia	El Paso Franklin
+2025	6A	113	5	Aaron	Reyna	Clute Brazoswood
+2025	6A	113	6	Braiden	Bartlett	Austin Lake Travis
+2025	6A	120	1	Izayiah	Chavez	Allen
+2025	6A	120	2	Braulio	Estrada	El Paso Franklin
+2025	6A	120	3	Santiago	Ramirez	Houston Westside
+2025	6A	120	4	Cael	Brubaker	McKinney Boyd
+2025	6A	120	5	D'Angelo	Zuniga	El Paso Pebble Hills
+2025	6A	120	6	Santiago	Garcia Contreras	Katy
+2025	6A	126	1	Isaak	Arevalo	Arlington Martin
+2025	6A	126	2	Luca	Rios	Conroe The Woodlands College Park
+2025	6A	126	3	Charlie	Trujillo	Austin Vandegrift
+2025	6A	126	4	Cody	Welch	Bryan
+2025	6A	126	5	Cole	Sides	Dripping Springs
+2025	6A	126	6	Josue	Pizana	Katy
+2025	6A	132	1	Caio	Aron	Conroe The Woodlands College Park
+2025	6A	132	2	Javin	Jackson-Bey	Allen
+2025	6A	132	3	Nathaniel	Burchfiel	Rockwall Heath
+2025	6A	132	4	Miguel	Solis	El Paso Eastwood
+2025	6A	132	5	Ezequiel	Valadez	Arlington Martin
+2025	6A	132	6	Andrew	Huerta	Conroe The Woodlands
+2025	6A	138	1	Keagan	Sieracki	Southlake Carroll
+2025	6A	138	2	Hunter	Gordon	Rockwall
+2025	6A	138	3	Jair	Jackson-Bey	Allen
+2025	6A	138	4	Titus	Howell	Arlington Martin
+2025	6A	138	5	Andrew	Tarango	El Paso Eastwood
+2025	6A	138	6	Dimitri	Bao-Washington	Cypress Falls
+2025	6A	144	1	Cayden	Rios	Allen
+2025	6A	144	2	Anthony	Simpson	Arlington Lamar
+2025	6A	144	3	Tristan	Rios	Conroe The Woodlands College Park
+2025	6A	144	4	Timmy	Fitzgerald	Rockwall
+2025	6A	144	5	Thales	Rivas	Humble Kingwood
+2025	6A	144	6	Diego	Lopez	Katy Tompkins
+2025	6A	150	1	Logan	Milsaps	Conroe The Woodlands College Park
+2025	6A	150	2	Dominic	Wilson	Rockwall
+2025	6A	150	3	Alexander	Barros	Hebron
+2025	6A	150	4	Xander	Sweatt	Arlington Martin
+2025	6A	150	5	Luke	Burgar	Southlake Carroll
+2025	6A	150	6	Xavier	Stoops	Converse Judson
+2025	6A	157	1	Nicholas	Zamora	Arlington Martin
+2025	6A	157	2	Jared	Remington	League City Clear Creek
+2025	6A	157	3	Dario	Petrucelli	Rockwall
+2025	6A	157	4	Jaiye	Bello	Conroe The Woodlands College Park
+2025	6A	157	5	Truitt	Box	Lamar Fulshear
+2025	6A	157	6	Graham	Kilpper	Flower Mound
+2025	6A	165	1	Carter	Nekvapil	Allen
+2025	6A	165	2	Logan	Soileau	Langham Creek
+2025	6A	165	3	Travis	Rosa	Cypress Creek
+2025	6A	165	4	Lashon	Tolbert	Arlington Martin
+2025	6A	165	5	Declan	Kelts	San Antonio Churchill
+2025	6A	165	6	Keith	Remington	League City Clear Creek
+2025	6A	175	1	Grayson	Carpenter	Arlington Martin
+2025	6A	175	2	Jack	Ringger	Prosper
+2025	6A	175	3	Sean	Perez	Humble
+2025	6A	175	4	Nathaniel	Jean	Northwest
+2025	6A	175	5	Saul	Gutierrez	Langham Creek
+2025	6A	175	6	Dayne	Garcia-Stormer	Round Rock
+2025	6A	190	1	Aiden	Cooley	Allen
+2025	6A	190	2	Robbie	Rocha	Arlington Martin
+2025	6A	190	3	Pasquale	Maurici	Austin Westlake
+2025	6A	190	4	Wyatt	Davis	Irving MacArthur
+2025	6A	190	5	Kane	Rosario	Katy Seven Lakes
+2025	6A	190	6	Carlos	Gonzalez Ramirez	San Antonio Churchill
+2025	6A	215	1	Rade	Ostrander	Keller Timber Creek
+2025	6A	215	2	Aidan	Mayne	Little Elm
+2025	6A	215	3	Brandon	Long	San Antonio Madison
+2025	6A	215	4	JP	Smith	Katy Cinco Ranch
+2025	6A	215	5	Dorian	Jaramillo	El Paso Pebble Hills
+2025	6A	215	6	Brand	Felts	Coppell
+2025	6A	285	1	Andrew	Jurasek	Keller
+2025	6A	285	2	Shane	Trotter	Katy
+2025	6A	285	3	Grant	Bahnsen	Houston Clear Lake
+2025	6A	285	4	Jacob	Ramirez	Grand Prairie
+2025	6A	285	5	Nathaniel	Surley	Bryan
+2025	6A	285	6	Ke'Shawn	Jones	League City Clear Creek
