@@ -47,7 +47,7 @@
 2025	5A	150	5	Ryan	Ortega	Melissa
 2025	5A	150	6	Grayson	Gonzales	Frisco Wakeland
 2025	5A	157	1	Landry	Wilkinson	Fort Worth Benbrook
-2025	5A	157	2	Eli	Silva	Lucas Lovejoy
+2025	5A	157	2	Eli	Silva	Lovejoy
 2025	5A	157	3	Landin	Lamberth	Amarillo Tascosa
 2025	5A	157	4	Mauricio	Bryant	Leander
 2025	5A	157	5	Honor	Trevino	Lubbock Estacado
@@ -68,7 +68,7 @@
 2025	5A	190	2	Roman	Nino	Corpus Christi Carroll
 2025	5A	190	3	Ethan	Browning	McKinney North
 2025	5A	190	4	Paul	Miranda	Carrollton Creekview
-2025	5A	190	5	Brock	McKnight	Lucas Lovejoy
+2025	5A	190	5	Brock	McKnight	Lovejoy
 2025	5A	190	6	Rudy	Velasquez	Midlothian Heritage
 2025	5A	215	1	Amin	Elahmadi	Highland Park
 2025	5A	215	2	Anthony	Fulmer	Winnsboro
