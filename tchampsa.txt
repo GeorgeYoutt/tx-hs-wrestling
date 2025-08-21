@@ -101,17 +101,17 @@
 2025	6A	120	5	D'Angelo	Zuniga	El Paso Pebble Hills
 2025	6A	120	6	Santiago	Garcia Contreras	Katy
 2025	6A	126	1	Isaak	Arevalo	Arlington Martin
-2025	6A	126	2	Luca	Rios	Conroe The Woodlands College Park
+2025	6A	126	2	Luca	Rios	The Woodlands College Park
 2025	6A	126	3	Charlie	Trujillo	Austin Vandegrift
 2025	6A	126	4	Cody	Welch	Bryan
 2025	6A	126	5	Cole	Sides	Dripping Springs
 2025	6A	126	6	Josue	Pizana	Katy
-2025	6A	132	1	Caio	Aron	Conroe The Woodlands College Park
+2025	6A	132	1	Caio	Aron	The Woodlands College Park
 2025	6A	132	2	Javin	Jackson-Bey	Allen
 2025	6A	132	3	Nathaniel	Burchfiel	Rockwall Heath
 2025	6A	132	4	Miguel	Solis	El Paso Eastwood
 2025	6A	132	5	Ezequiel	Valadez	Arlington Martin
-2025	6A	132	6	Andrew	Huerta	Conroe The Woodlands
+2025	6A	132	6	Andrew	Huerta	The Woodlands
 2025	6A	138	1	Keagan	Sieracki	Southlake Carroll
 2025	6A	138	2	Hunter	Gordon	Rockwall
 2025	6A	138	3	Jair	Jackson-Bey	Allen
@@ -120,11 +120,11 @@
 2025	6A	138	6	Dimitri	Bao-Washington	Cypress Falls
 2025	6A	144	1	Cayden	Rios	Allen
 2025	6A	144	2	Anthony	Simpson	Arlington Lamar
-2025	6A	144	3	Tristan	Rios	Conroe The Woodlands College Park
+2025	6A	144	3	Tristan	Rios	The Woodlands College Park
 2025	6A	144	4	Timmy	Fitzgerald	Rockwall
 2025	6A	144	5	Thales	Rivas	Humble Kingwood
 2025	6A	144	6	Diego	Lopez	Katy Tompkins
-2025	6A	150	1	Logan	Milsaps	Conroe The Woodlands College Park
+2025	6A	150	1	Logan	Milsaps	The Woodlands College Park
 2025	6A	150	2	Dominic	Wilson	Rockwall
 2025	6A	150	3	Alexander	Barros	Hebron
 2025	6A	150	4	Xander	Sweatt	Arlington Martin
@@ -133,7 +133,7 @@
 2025	6A	157	1	Nicholas	Zamora	Arlington Martin
 2025	6A	157	2	Jared	Remington	League City Clear Creek
 2025	6A	157	3	Dario	Petrucelli	Rockwall
-2025	6A	157	4	Jaiye	Bello	Conroe The Woodlands College Park
+2025	6A	157	4	Jaiye	Bello	The Woodlands College Park
 2025	6A	157	5	Truitt	Box	Lamar Fulshear
 2025	6A	157	6	Graham	Kilpper	Flower Mound
 2025	6A	165	1	Carter	Nekvapil	Allen
