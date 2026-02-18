@@ -1,1 +1,1469 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TX HS Wrestling</title>
+        <style>
+            .table-container {
+                width: 48%;
+                float: left;
+                margin-left: 1%;
+                margin-right: 1%;
+            }
+            table {
+            border-collapse: collapse; /* Ensures borders are joined */
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            }
+            th, td {
+            border: 1px solid black; /* Adds borders to cells */
+            padding: 8px;
+            text-align: left;
+            }
+            th {
+            background-color: #f2f2f2; /* Optional: header styling */
+            }
+            h1 {
+            text-align: center; /* Centers the header */
+            }
+            h2 {
+            text-align: center; /* Centers the header */
+            }
+            h3 {
+            text-align: center; /* Centers the header */
+            }
+            .red-text {
+            color: red; /* Changes text color to red */
+            }
+            .reduced-spacing-h3 {
+            margin-top: 0;   
+            margin-bottom: 0; 
+            padding-top: 0;   
+            padding-bottom: 0; 
+            padding-left: 0;   
+            padding-right: 0;  
+            }
+                        /* This container will hold each row of two tables */
+            .table-row-flex {
+                display: flex;
+                justify-content: center; /* Centers the two tables within this row */
+                gap: 2%; /* Gap between the two tables in a row */
+                margin-bottom: 20px; /* Space between rows of tables */
+                /* Optional: max-width for the row itself, if you want to limit how wide the rows can get before wrapping */
+                max-width: 1000px; /* Adjust based on desired overall width for two tables + gap */
+                margin-left: auto; /* Center the row itself on the page */
+                margin-right: auto; /* Center the row itself on the page */
+            }
 
+            /* This will be the wrapper for each individual table */
+            .table-wrapper {
+                flex: 0 0 49%; /* Each table takes 49% of the row, allows for 2% gap */
+                /* flex-grow: 0; flex-shrink: 0; flex-basis: 49%; */
+                box-sizing: border-box; /* Include padding/border in width calculation */
+                /* The h2 inside the table-wrapper should also be centered, as it holds the weight class number */
+            }
+            .table-wrapper h2 {
+                margin-top: 0; /* Adjust spacing of the H2 above the table */
+                margin-bottom: 5px;
+            }
+
+            /* Styles for your Team Scores section (from previous discussion, confirmed working) */
+            .two-column-container {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+                margin: 0 auto;
+                max-width: 800px;
+            }
+            .column-one,
+            .column-two {
+                list-style: none;
+                list-style-position: inside;
+                padding: 0;
+                margin: 0;
+                flex-grow: 0;
+                flex-shrink: 0;
+                flex-basis: auto; /* Default basis is content size */
+                min-width: 250px; /* Adjust as needed */
+                text-align: left;
+            }
+            .column-one li,
+            .column-two li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>2026 Texas State Wrestling Tournament</h1>
+        <p style="text-align: center;">
+            Sources:<br>
+            <a href="https://flowrestling.org/events/14569382">
+            2026 UIL Boys State Championship page on FloWrestling</a><br>
+            <a href="https://flowrestling.org/events/14569382">
+            2026 UIL Girls State Championship page on FloWrestling</a><br>
+            <a href="https://www.uiltexas.org/wrestling/archives">
+            UIL Wrestling State Archives</a>
+        </p>
+        <h1>
+            Boys
+        </h1>
+        <h2>
+            Team Scores
+        </h2>
+        <div class="two-column-container">
+            <ul class="column-one">
+                <li><h2>6A</h2></li>
+                <li>1. Allen - 199.5</li>
+                <li>2. The Woodlands College Park - 112.5</li>
+                <li>3. Southlake Carroll - 80</li>
+                <li>4. El Paso Eastwood - 73</li>
+                <li>5. Rockwall - 65</li>
+              <li>6. League City Clear Creek - 64.5</li>
+              <li>7. Rockwall Heath - 60</li>
+              <li>8. Austin Lake Travis - 58.5</li>
+              <li>9. Arlington Martin - 55</li>
+              <li>10. Austin Vandegrift - 41</li>
+              <li>11. Houston Clear Lake - 40.5</li>
+              <li>12. Grand Prairie - 36</li>
+              <li>13. Austin Westlake - 34.5</li>
+              <li>14. San Antonio Churchill - 34</li>
+              <li>15. Dripping Springs - 32.5</li>
+              <li>16. Bridgeland - 30.5</li>
+              <li>17. Humble - 28</li>
+              <li>18. Lewisville Flower Mound - 27.5</li>
+              <li>19. Austin Bowie - 24</li>
+              <li>20. Katy Cinco Ranch - 22.5</li>
+              <li>20. Katy Paetow - 22.5</li>
+              <li>22. Byron Nelson - 22</li>
+              <li>23. Humble Kingwood - 21</li>
+              <li>23. McKinney Boyd - 21</li>
+              <li>23. San Antonio Reagan - 21</li>
+              <li>26. Cypress Woods - 20</li>
+              <li>26. Dallas Jesuit - 20</li>
+              <li>26. Klein Oak - 20</li>
+              <li>26. Round Rock - 20</li>
+              <li>30. Irving MacArthur - 19</li>
+              <li>30. Lewisville Hebron - 19</li>
+              <li>30. Little Elm - 19</li>
+              <li>33. Katy - 18.5</li>
+              <li>34. Lake Highlands - 17</li>
+              <li>35. Arlington Lamar - 16</li>
+              <li>35. Eaton - 16</li>
+              <li>37. Plano East - 15</li>
+              <li>37. Plano West - 15</li>
+              <li>39. El Paso Pebble Hills - 13.5</li>
+              <li>40. Keller Central - 12.5</li>
+              <li>40. San Antonio Johnson - 12.5</li>
+              <li>42. Keller - 12</li>
+              <li>43. Clute Brazoswood - 11</li>
+              <li>43. Cy-Fair - 11</li>
+              <li>43. Cypress Ridge - 11</li>
+              <li>43. Klein - 11</li>
+              <li>47. Langham Creek - 10.5</li>
+              <li>48. Arlington Sam Houston - 8</li>
+              <li>48. Conroe Grand Oaks - 8</li>
+              <li>50. Conroe Caney Creek - 7</li>
+              <li>50. Keller Timber Creek - 7</li>
+              <li>52. Cibolo Steele - 6.5</li>
+              <li>52. Prosper Rock Hill - 6.5</li>
+              <li>54. Killeen Shoemaker - 6</li>
+              <li>54. Lamar Fulshear - 6</li>
+              <li>54. Round Rock McNeil - 6</li>
+              <li>54. Temple - 6</li>
+              <li>58. The Woodlands - 5</li>
+              <li>58. El Paso Franklin - 5</li>
+              <li>60. Comal Canyon - 4</li>
+              <li>60. Humble Atascocita - 4</li>
+              <li>60. League City Clear Falls - 4</li>
+              <li>63. Killeen Harker Heights - 3.5</li>
+              <li>64. Cedar Park Vista Ridge - 3</li>
+              <li>64. Houston Westside - 3</li>
+              <li>64. Mesquite Horn - 3</li>
+              <li>64. San Benito - 3</li>
+              <li>68. Katy Morton Ranch - 2</li>
+              <li>68. J.J. Pearce - 2</li>
+              <li>70. Haltom - 1</li>
+              <li>70. Schertz Clemens - 1</li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <ul class="column-two">
+                <li><h2>5A</h2></li>
+                <li>1. Canyon Randall - 139.5</li>
+                <li>2. Cedar Park - 83.5</li>
+                <li>3. Amarillo Tascosa - 77.5</li>
+                <li>4. Melissa - 74</li>
+                <li>5. Corpus Christi Veterans Memorial - 61.5</li>
+                <li>6. Frisco Wakeland - 57</li>
+                <li>7. Comal Smithson Valley - 53.5</li>
+                <li>8. Azle - 49.5</li>
+                <li>8. Highland Park - 49.5</li>
+                <li>10. Lubbock Cooper - 44</li>
+                <li>11. Frisco Centennial - 41</li>
+                <li>12. Winnsboro - 39</li>
+                <li>13. Amarillo - 36.5</li>
+                <li>14. Lubbock - 33.5</li>
+                <li>15. Carrollton Creekview - 33</li>
+                <li>16. Fort Worth Benbrook - 30.5</li>
+                <li>17. Amarillo Palo Duro - 29.5</li>
+                <li>17. Uvalde - 29.5</li>
+                <li>19. Lovejoy - 29</li>
+                <li>20. Mission Sharyland - 28.5</li>
+                <li>21. Dallas Kimball - 27.5</li>
+                <li>21. Dumas - 27.5</li>
+                <li>23. Midlothian - 27</li>
+                <li>24. Corpus Christi Carroll - 25.5</li>
+                <li>25. El Paso Del Valle - 25</li>
+                <li>26. Clint Horizon - 24</li>
+                <li>27. Canyon - 23</li>
+                <li>28. McKinney North - 22.5</li>
+                <li>29. Corpus Christi King - 22</li>
+                <li>29. Leander - 22</li>
+                <li>31. Austin Anderson - 21.5</li>
+                <li>32. Whitehouse - 20.5</li>
+                <li>33. Dallas Woodrow Wilson - 20</li>
+                <li>34. San Antonio Veterans Memorial - 18.5</li>
+                <li>35. Anna - 18</li>
+                <li>36. Liberty Hill Legacy Ranch - 17.5</li>
+                <li>36. New Braunfels - 17.5</li>
+                <li>36. Rio Grande City - 17.5</li>
+                <li>39. Leander Rouse - 16</li>
+                <li>39. Midlothian Heritage - 16</li>
+                <li>39. New Braunfels Long Creek - 16</li>
+                <li>42. Argyle - 15.5</li>
+                <li>43. Dallas Samuell - 15</li>
+                <li>44. Frisco Reedy - 14</li>
+                <li>45. Lubbock Estacado - 12.5</li>
+                <li>45. Birdville - 12.5</li>
+                <li>47. Grapevine - 12</li>
+                <li>47. White Settlement Brewer - 12</li>
+                <li>49. Colleyville Heritage - 11.5</li>
+                <li>49. Comal Pieper - 11.5</li>
+				<li>51. College Station - 11</li>
+                <li>52. Edinburg Vela - 10.5</li>
+                <li>53. Burleson - 10</li>
+                <li>53. Dallas Hillcrest - 10</li>
+                <li>55. El Paso Chapin - 9</li>
+                <li>55. Frisco Liberty - 9</li>
+                <li>55. The Colony - 9</li>
+                <li>55. Rosenberg Terry - 9</li>
+                <li>59. Pflugerville Weiss - 8.5</li>
+                <li>60. South Oak Cliff - 6</li>
+                <li>60. Lubbock Cooper Liberty - 6</li>
+                <li>62. Canyon West Plains - 5.5</li>
+                <li>62. El Paso Irvin - 5.5</li>
+                <li>64. Amarillo Caprock - 5</li>
+                <li>64. Mission Sharyland Pioneer - 5</li>
+                <li>64. San Antonio Jefferson - 5</li>
+                <li>67. La Joya Palmview - 4</li>
+                <li>67. North Mesquite - 4</li>
+                <li>67. Pflugerville Hendrickson - 4</li>
+                <li>67. Prosper Walnut Grove - 4</li>
+                <li>71. San Antonio Wagner - 3.5</li>
+                <li>72. College Station A&M Consolidated - 3</li>
+                <li>72. Frisco Lone Star - 3</li>
+                <li>72. Georgetown East View - 3</li>
+                <li>72. North Richland Hills Richland - 3</li>
+                <li>72. Rio Grande City Grulla - 3</li>
+                <li>77. Donna North - 2</li>
+                <li>77. El Paso Bel Air - 2</li>
+                <li>77. Georgetown - 2</li>
+                <li>77. Lampasas - 2</li>
+                <li>77. Leander Glenn - 2</li>
+                <li>77. Victoria East - 2</li>
+                <li>83. Frisco Memorial - 1</li>
+                <li>83. Vernon - 1</li>
+                <li>85. Beaumont West Brook - 0</li>
+                <li>85. Burleson Centennial - 0</li>
+                <li>85. Corpus Christi Miller - 0</li>
+                <li>85. El Paso Austin - 0</li>
+                <li>85. El Paso Ysleta - 0</li>
+                <li>85. Fort Worth Chisholm Trail - 0</li>
+                <li>85. Gunter - 0</li>
+                <li>85. Killeen Ellison - 0 </li>
+                <li>85. La Joya Juarez-Lincoln - 0</li>
+                <li>85. La Vernia - 0</li>
+                <li>85. Salado - 0</li>
+                <li>85. Whitesboro - 0</li>
+                <li>97. Beeville Jones - -1</li>
+            </ul>
+        </div>
+        <h2>
+            Most Outstanding Wrestler
+        </h2>
+        <p style="text-align: center;">
+	        <br>
+            
+        </p>
+        <h2>
+            Individual Placers
+        </h2>
+        <h2>106</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Dylan Ota</td><td>Southlake Carroll</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Hector Ortiz</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Kingston Stephens</td><td>Dallas Jesuit</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Drew Brinkmeier</td><td>Keller</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Fernando Morales</td><td>Houston Clear Lake</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Matthew Govea</td><td>Keller Central</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Charles Alvarez</td><td>Midlothian</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Isaiah Deleon</td><td>Corpus Christi King</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Jacob Barrilleaux</td><td>Dallas Woodrow Wilson</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Esteban Vela</td><td>Corpus Christi Veterans Memorial</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Tobias Gilman</td><td>Argyle</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Mateo Barron</td><td>El Paso Del Valle</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>113</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Jackson Shipley</td><td>Dripping Springs</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Cayden Campbell</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Adrian Fierros</td><td>Katy</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Alexander Tapia</td><td>El Paso Franklin</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Aaron Reyna</td><td>Clute Brazoswood</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Braiden Bartlett</td><td>Austin Lake Travis</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Nathan Reilly</td><td>Cedar Park</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jaxon Johnson</td><td>Melissa</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Abraham Campa Cortes</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Jonas Casillas</td><td>El Paso Del Valle</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Aiden Rivera</td><td>Amarillo Tascosa</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Ethan Cobarrubias</td><td>Comal Pieper</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>120</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Izayiah Chavez</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Braulio Estrada</td><td>El Paso Franklin</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Santiago Ramirez</td><td>Houston Westside</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Cael Brubaker</td><td>McKinney Boyd</td></tr>
+                <tr><td style="text-align: center;">5</td><td>D'Angelo Zuniga</td><td>El Paso Pebble Hills</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Santiago Garcia Contreras</td><td>Katy</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>George Rodriguez</td><td>Uvalde</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Matthew Brock</td><td>Austin Anderson</td></tr>
+                <tr><td style="text-align: center;">3</td><td>David McNally</td><td>Liberty Hill Legacy Ranch</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Eli Johnson</td><td>Frisco Wakeland</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Andre Moyron</td><td>Carrollton Creekview</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Jayden Strauss</td><td>El Paso Chapin</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>126</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Isaak Arevalo</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Luca Rios</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Charlie Trujillo</td><td>Austin Vandegrift</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Cody Welch</td><td>Bryan</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Cole Sides</td><td>Dripping Springs</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Josue Pizana</td><td>Katy</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Michael Ruiz</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Yusuf Uribe</td><td>Frisco Centennial</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Max Brandt</td><td>Cedar Park</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Aidan Rodriguez</td><td>Corpus Christi Veterans Memorial</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Aiden Baker</td><td>Mission Sharyland</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Mohamed Farah</td><td>Colleyville Heritage</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>132</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Caio Aron</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">2</td><td>---*</td><td>---</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Nathaniel Burchfiel</td><td>Rockwall Heath</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Miguel Solis</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Ezequiel Valadez</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Andrew Huerta</td><td>The Woodlands</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Michael Brennan</td><td>Frisco Wakeland</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Tyler Yancey</td><td>Azle</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Colin McQuone</td><td>New Braunfels</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Enrique Uribe</td><td>Frisco Centennial</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Rylan Jones</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Ethan Gonzales</td><td>Edinburg Vela</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>138</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Keagan Sieracki</td><td>Southlake Carroll</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Hunter Gordon</td><td>Rockwall</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Jair Jackson-Bey</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Titus Howell</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Andrew Tarango</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Dimitri Bao-Washington</td><td>Cypress Falls</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Hunter Bogner</td><td>Dumas</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Chase Yancey</td><td>Azle</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Aiden Valdovinos</td><td>Rio Grande City</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Cruz Morales</td><td>New Braunfels Long Creek</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Tyler Ellmann</td><td>Corpus Christi Veterans Memorial</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Enrique Olivares</td><td>Rosenberg Terry</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>144</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Cayden Rios</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Anthony Simpson</td><td>Arlington Lamar</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Tristan Rios</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Timmy Fitzgerald</td><td>Rockwall</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Thales Rivas</td><td>Humble Kingwood</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Diego Lopez</td><td>Katy Tompkins</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Thomas Pacheco</td><td>Amarillo Tascosa</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jaxon Russell</td><td>Lubbock</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Kason White</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Nicholas Torres</td><td>Mission Sharyland</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Nathan Rechtfertig</td><td>Cedar Park</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Josue Cedeno Mendoza</td><td>White Settlement Brewer</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>150</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Logan Milsaps</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Dominic Wilson</td><td>Rockwall</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Alexander Barros</td><td>Hebron</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Xander Sweatt</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Luke Burgar</td><td>Southlake Carroll</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Xavier Stoops</td><td>Converse Judson</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Bryce Palmer</td><td>Comal Smithson Valley</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Carter McLaughlin</td><td>Whitehouse</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Daniel Acosta</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Johnny White</td><td>Dallas Samuell</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Ryan Ortega</td><td>Melissa</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Grayson Gonzales</td><td>Frisco Wakeland</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>157</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Nicholas Zamora</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jared Remington</td><td>League City Clear Creek</td></tr>
+                <tr><td style="text-align: center;">3</td><td>---**</td><td>---</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Jaiye Bello</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Truitt Box</td><td>Lamar Fulshear</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Graham Kilpper</td><td>Flower Mound</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Landry Wilkinson</td><td>Fort Worth Benbrook</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Eli Silva</td><td>Lovejoy</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Landin Lamberth</td><td>Amarillo Tascosa</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Mauricio Bryant</td><td>Leander</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Honor Trevino</td><td>Lubbock Estacado</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Quinn Barrera</td><td>Corpus Christi Veterans Memorial</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>165</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Carter Nekvapil</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Logan Soileau</td><td>Langham Creek</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Travis Rosa</td><td>Cypress Creek</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Lashon Tolbert</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Declan Kelts</td><td>San Antonio Churchill</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Keith Remington</td><td>League City Clear Creek</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Jadyn Johnson</td><td>Melissa</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Drezdyn Ballard</td><td>Amarillo</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Quintraylon Johnson</td><td>Dallas Kimball</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Preston Kepler</td><td>Comal Smithson Valley</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Leo Ashurou</td><td>Frisco Reedy</td></tr>
+                <tr><td style="text-align: center;">6</td><td>John Humphries</td><td>College Station</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>175</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Grayson Carpenter</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jack Ringger</td><td>Prosper</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Sean Perez</td><td>Humble</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Nathaniel Jean</td><td>Northwest</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Saul Gutierrez</td><td>Langham Creek</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Dayne Garcia-Stormer</td><td>Round Rock</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Mark Gallegos</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Gabriel Ordonez</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Torrance Adkins</td><td>San Antonio Veterans Memorial</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Jett Mentel</td><td>Cedar Park</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Gage Herrin</td><td>Melissa</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Reese Bradford</td><td>Birdville</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>190</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Aiden Cooley</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Robbie Rocha</td><td>Arlington Martin</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Pasquale Maurici</td><td>Austin Westlake</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Wyatt Davis</td><td>Irving MacArthur</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Kane Rosario</td><td>Katy Seven Lakes</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Carlos Gonzalez Ramirez</td><td>San Antonio Churchill</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Darien Lewis</td><td>Amarillo Palo Duro</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Roman Nino</td><td>Corpus Christi Carroll</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Ethan Browning</td><td>McKinney North</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Paul Miranda</td><td>Carrollton Creekview</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Brock McKnight</td><td>Lovejoy</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Rudy Velasquez</td><td>Midlothian Heritage</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>215</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Rade Ostrander</td><td>Keller Timber Creek</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Aidan Mayne</td><td>Little Elm</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Brandon Long</td><td>San Antonio Madison</td></tr>
+                <tr><td style="text-align: center;">4</td><td>JP Smith</td><td>Katy Cinco Ranch</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Dorian Jaramillo</td><td>El Paso Pebble Hills</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Brand Felts</td><td>Coppell</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Amin Elahmadi</td><td>Highland Park</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Anthony Fulmer</td><td>Winnsboro</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Brayden Drager</td><td>Canyon</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Cash Williams</td><td>Anna</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Brice Cothrin</td><td>Amarillo</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Yahiya Hussein-Said</td><td>The Colony</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>285</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Andrew Jurasek</td><td>Keller</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Shane Trotter</td><td>Katy</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Grant Bahnsen</td><td>Houston Clear Lake</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Jacob Ramirez</td><td>Grand Prairie</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Nathaniel Surley</td><td>Bryan</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Ke'Shawn Jones</td><td>League City Clear Creek</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Jaxon Johnson</td><td>Amarillo Tascosa</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Joshua Rodriguez</td><td>Clint Horizon</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Ryder Hatton</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Keegan McNeil</td><td>Winnsboro</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Strider Williams</td><td>Leander Rouse</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Ty Hohenberger</td><td>Grapevine</td></tr>
+            </table>
+        </div>
+    </div>
+        <h1>
+            Girls
+        </h1>
+        <h2>
+            Team Scores
+        </h2>
+        <div class="two-column-container">
+            <ul class="column-one">
+                <li><h2>6A</h2></li>
+                <li>1. El Paso Eastwood - 130</li>
+                <li>2. The Woodlands College Park - 96</li>
+                <li>3. Katy - 85</li>
+                <li>4. El Paso Franklin - 59.5</li>
+                <li>5. Allen - 55</li>
+                <li>6. Klein Oak - 50</li>
+                <li>7. Byron Nelson - 47.5</li>
+                <li>8. The Woodlands - 44.5</li>
+                <li>9. Prosper Rock Hill - 44</li>
+                <li>10. Killeen Harker Heights - 39</li>
+                <li>11. Katy Taylor - 34</li>
+                <li>12. Euless Trinity - 31</li>
+                <li>13. Converse Judson - 29</li>
+                <li>13. Flower Mound - 29</li>
+                <li>15. Cypress Park - 27</li>
+                <li>15. Richmond Foster - 27</li>
+                <li>17. Cypress Ranch - 26.5</li>
+                <li>17. Katy Cinco Ranch - 26.5</li>
+                <li>17. Prosper - 26.5</li>
+                <li>20. Dripping Springs - 26</li>
+                <li>21. Cibolo Steele - 25</li>
+                <li>21. Haltom - 25</li>
+                <li>21. Princeton - 25</li>
+                <li>21. Rockwall - 25</li>
+                <li>25. Langham Creek - 24.5</li>
+                <li>26. Arlington Lamar - 24</li>
+                <li>26. Hebron - 24</li>
+                <li>28. Northwest - 23.5</li>
+                <li>29. Bridgeland - 22</li>
+                <li>29. San Marcos - 22</li>
+                <li>31. Dallas Skyline - 20</li>
+                <li>32. Hutto - 19</li>
+                <li>33. Bryan - 17</li>
+                <li>33. Keller Central - 17</li>
+                <li>33. Marcus - 17</li>
+                <li>36. Eaton - 16.5</li>
+                <li>37. Coppell - 15</li>
+                <li>38. Katy Mayde Creek - 14</li>
+                <li>39. Keller - 13</li>
+                <li>39. San Antonio Churchill - 13</li>
+                <li>41. Cypress Ridge - 12</li>
+                <li>41. Klein Collins - 12</li>
+                <li>41. Rockwall Heath - 12</li>
+                <li>44. Clute Brazoswood - 11</li>
+                <li>45. Austin Vandegrift - 10</li>
+                <li>45. Copperas Cove - 10</li>
+                <li>45. Houston Clear Lake - 10</li>
+                <li>48. San Antonio Reagan - 9</li>
+                <li>48. South Grand Prairie - 9</li>
+                <li>48. Southlake Carroll - 9</li>
+				<li>51. Cypress Falls - 7</li>
+                <li>51. Edinburg - 7</li>
+                <li>53. Cypress Creek - 6</li>
+                <li>53. Houston Bellaire - 6</li>
+                <li>53. Katy Jordan - 6</li>
+                <li>56. Katy Paetow - 5.5</li>
+                <li>57. San Antonio Madison - 5</li>
+                <li>58. Cy-Fair - 4.5</li>
+                <li>58. Schertz Clemens - 4.5</li>
+                <li>60. Buda Johnson - 4</li>
+                <li>60. Cypress Springs - 4</li>
+                <li>60. El Paso Pebble Hills - 4</li>
+                <li>60. League City Clear Falls - 4</li>
+                <li>60. Lake Highlands - 4</li>
+                <li>60. Richmond George Ranch - 4</li>
+                <li>60. Round Rock McNeil - 4</li>
+                <li>60. Round Rock Westwood - 4</li>
+                <li>60. San Antonio Johnson - 4</li>
+                <li>60. Weslaco - 4</li>
+                <li>70. Arlington Martin - 3</li>
+                <li>70. Comal Canyon - 3</li>
+                <li>70. Cypress Woods - 3</li>
+                <li>70. El Paso Montwood - 3</li>
+                <li>70. La Joya - 3</li>
+                <li>70. Plano - 3</li>
+                <li>76. San Antonio Roosevelt - 2</li>
+                <li>77. Arlington - 0</li>
+                <li>77. Arlington Sam Houston - 0</li>
+                <li>77. Austin Lake Travis - 0</li>
+                <li>77. Conroe - 0</li>
+                <li>77. Conroe Grand Oaks - 0</li>
+                <li>77. Houston Lamar - 0</li>
+                <li>77. Humble Summer Creek - 0</li>
+                <li>77. Jersey Village - 0</li>
+                <li>77. Katy Seven Lakes - 0</li>
+                <li>77. Keller Timber Creek - 0</li>
+                <li>77. Klein Cain - 0</li>
+                <li>77. McKinney - 0</li>
+                <li>77. Pharr-San Juan-Alamo - 0</li>
+                <li>77. Richardson Berkner - 0</li>
+            </ul>
+            <ul class="column-two">
+                <li><h2>5A</h2></li>
+                <li>1. Lubbock Cooper - 110.5</li>
+                <li>2. Dumas - 80</li>
+                <li>3. Azle - 71.5</li>
+                <li>4. Frisco - 71</li>
+                <li>5. El Paso Burges - 62</li>
+                <li>6. Amarillo Palo Duro - 52</li>
+                <li>7. Melissa - 48</li>
+                <li>8. El Paso Bel Air - 45.5</li>
+                <li>9. Comal Smithson Valley - 45</li>
+                <li>10. McAllen - 44.5</li>
+                <li>11. Borger - 40.5</li>
+                <li>12. Liberty Hill - 39.5</li>
+                <li>13. Canyon Randall - 35</li>
+                <li>13. Hereford - 35</li>
+                <li>15. Lubbock Coronado - 34.5</li>
+                <li>16. Frisco Centennial - 34</li>
+                <li>17. Anna - 31</li>
+                <li>18. Lampasas - 30</li>
+                <li>18. Midlothian Heritage - 30</li>
+                <li>20. Carrollton Creekview - 29</li>
+                <li>21. Corpus Christi Carroll - 28</li>
+                <li>22. Henrietta - 27.5</li>
+                <li>23. Huntsville - 25.5</li>
+                <li>24. Argyle - 25</li>
+                <li>25. Comal Pieper - 24</li>
+                <li>26. Lubbock - 23</li>
+                <li>27. Lovejoy - 22</li>
+                <li>28. Frisco Memorial - 21</li>
+                <li>29. Corpus Christi Veterans Memorial - 20</li>
+                <li>29. Prosper Walnut Grove - 20</li>
+                <li>31. Dallas Hillcrest - 19</li>
+                <li>31. Frisco Lebanon Trail - 19</li>
+                <li>31. Frisco Lone Star - 19</li>
+                <li>31. Georgetown - 19</li>
+                <li>31. San Elizario - 19</li>
+                <li>36. Canyon - 18</li>
+                <li>36. Frisco Heritage - 18</li>
+                <li>38. Burleson - 16.5</li>
+                <li>38. San Antonio Burbank - 16.5</li>
+                <li>40. Burleson Centennial - 15</li>
+                <li>41. San Antonio MacArthur - 14.5</li>
+                <li>42. Comal Davenport - 14</li>
+                <li>43. San Antonio Edison - 13</li>
+                <li>44. College Station - 12</li>
+                <li>44. Frisco Emerson - 12</li>
+                <li>46. Pharr Valley View - 11</li>
+                <li>47. El Paso Del Valle - 10</li>
+                <li>47. Leander Glenn - 10</li>
+                <li>47. San Antonio Veterans Memorial - 10</li>
+                <li>50. Fort Worth South Hills - 8.5</li>
+				<li>51. Friendswood - 8</li>
+                <li>52. Leander - 7</li>
+                <li>52. Midlothian - 7</li>
+                <li>54. Frisco Liberty - 6</li>
+                <li>54. Mission Veterans Memorial - 6</li>
+                <li>54. New Braunfels - 6</li>
+                <li>57. Brownsville Rivera - 5</li>
+                <li>57. Fort Worth Paschal - 5</li>
+                <li>57. Birdville - 5</li>
+                <li>57. Pharr-San Juan-Alamo North - 5</li>
+                <li>61. Edinburg Vela - 4</li>
+                <li>61. San Antonio Lanier - 4</li>
+                <li>63. Mission Sharyland - 3.5</li>
+                <li>64. Amarillo Caprock - 3</li>
+                <li>64. Buda Hays - 3</li>
+                <li>64. Corpus Christi King - 3</li>
+                <li>64. Dallas Jefferson - 3</li>
+                <li>64. Edcouch-Elsa - 3</li>
+                <li>64. Frisco Panther Creek - 3</li>
+                <li>64. Keller Fossil Ridge - 3</li>
+                <li>64. Killeen Chaparral - 3</li>
+                <li>64. La Joya Juarez-Lincoln - 3</li>
+                <li>64. San Antonio Wagner - 3</li>
+                <li>74. Donna North - 2.5</li>
+                <li>75. El Paso Hanks - 2</li>
+                <li>76. El Paso Ysleta - 1</li>
+                <li>77. Beaumont West Brook - 0</li>
+                <li>77. Bryan Rudder - 0</li>
+                <li>77. Canyon West Plains - 0</li>
+                <li>77. Cedar Park - 0</li>
+                <li>77. College Station A&M Consolidated - 0</li>
+                <li>77. Colleyville Heritage - 0</li>
+                <li>77. Dallas Adamson - 0</li>
+                <li>77. Dallas Kimball - 0</li>
+                <li>77. Humble Kingwood Park - 0</li>
+                <li>77. Killeen Ellison - 0</li>
+                <li>77. La Joya Palmview - 0</li>
+                <li>77. La Vernia - 0</li>
+                <li>77. Leander Rouse - 0</li>
+                <li>77. Lubbock Monterey - 0</li>
+                <li>77. McAllen Memorial - 0</li>
+                <li>77. McKinney North - 0</li>
+                <li>77. Mission Sharyland Pioneer - 0</li>
+                <li>77. Pharr-San Juan-Alamo Southwest - 0</li>
+                <li>77. Rosenberg Lamar Consolidated - 0</li>
+                <li>77. Rosenberg Terry - 0</li>
+                <li>77. Winnsboro - 0</li>
+            </ul>
+        </div>
+        <h2>
+            Most Outstanding Wrestler
+        </h2>
+        <p style="text-align: center;">
+	        <br>
+            
+        </p>
+        <h2>
+            Individual Placers
+        </h2>
+        <h2>100</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Hailey Delgado</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jubilee Rendon</td><td>El Paso Franklin</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Natalie Roberson</td><td>Katy</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Audrey Moore</td><td>Keller</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Yvette Zepeda</td><td>Langham Creek</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Katelynn Dockery</td><td>Bryan</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Noah Kovach</td><td>Azle</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jackelyn Sanchez</td><td>El Paso Burges</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Alexa Rodriguez</td><td>Dallas Hillcrest</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Abigail Mendoza</td><td>Corpus Christi Veterans Memorial</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Sofia De Alba</td><td>San Antonio MacArthur</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Alexis Avalos</td><td>Comal Smithson Valley</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>107</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Emily Beltran</td><td>Katy</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Fiona Smith</td><td>El Paso Franklin</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Allessandra Toscano</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Arianna Beltran</td><td>Cypress Ranch</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Ashlyn Lewis</td><td>Eaton</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Dannielle Sizelove</td><td>The Woodlands</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Addison Hunt</td><td>Anna</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Aro Ogle-Garza</td><td>Lovejoy</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Berkley Funderburg</td><td>Dumas</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Lillie Long</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Ava Aragon</td><td>McAllen</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Amaris Rivera</td><td>Leander</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>114</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Riley Rayome</td><td>The Woodlands</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Grace Romans</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Abigail Gallardo</td><td>Hutto</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Nevada Daniels</td><td>Katy Cinco Ranch</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Naime Abdallah</td><td>El Paso Franklin</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Stephanie Lopez</td><td>Katy Mayde Creek</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Mariah Dillard</td><td>Azle</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Dalilah Coyle</td><td>Henrietta</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Tessa Urias</td><td>Lubbock Coronado</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Kennedi Purcell</td><td>Dumas</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Summer Williams</td><td>Comal Smithson Valley</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Natalie Powell</td><td>Burleson Centennial</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>120</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Lucy Clarno</td><td>Dripping Springs</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Mila Juarez</td><td>San Marcos</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Vanessa De La Cruz</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Nayeli Ortiz</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Emily Melham</td><td>Katy Taylor</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Jaelyn Skelley</td><td>Prosper</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Genevieve Bellino</td><td>Corpus Christi Carroll</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Madison Pena</td><td>Lubbock</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Akeelah Moore</td><td>Melissa</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Aniz Ramirez</td><td>Georgetown</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Olivia Ontiveros</td><td>El Paso Bel Air</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Marisa Iturrino</td><td>Carrollton Creekview</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>126</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Kailin Sebert</td><td>Allen</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Isabella Silva</td><td>Flower Mound</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Natalie Grijalva</td><td>Katy Taylor</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Echo Cranor</td><td>Keller Central</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Violet De La Cruz</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Lianna Benitez</td><td>San Antonio Churchill</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Malia Griffin</td><td>Melissa</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jordyn Parker</td><td>Frisco Centennial</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Joy Jackson</td><td>El Paso Burges</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Elaina Morgan</td><td>Dumas</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Raquel Iturrino</td><td>Carrollton Creekview</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Nadiyah Elizondo</td><td>College Station</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>132</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Anna Vogt</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Haley Pitts</td><td>Katy</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Jaylah Davenport</td><td>Arlington Lamar</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Tayla Skelley</td><td>Prosper</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Cora Hayes</td><td>Southlake Carroll</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Angelina Patterson</td><td>Cypress Ranch</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Zoe Bennett</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">2</td><td>London Woods</td><td>Frisco</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Gloria Vasquez</td><td>El Paso Burges</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Gideon Sanchez</td><td>San Antonio Burbank</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Bella Ramos</td><td>Frisco Lebanon Trail</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Alyssa Indalsingh</td><td>Burleson</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>138</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Landri Von Gonten</td><td>The Woodlands College Park</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Daniela Hernandez</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Marli Denmark</td><td>Byron Nelson</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Savannah Freifeld</td><td>Katy</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Xenia Gutierrez</td><td>Killeen Harker Heights</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Zoe Sonnier</td><td>Bryan</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Eve Smith</td><td>Midlothian Heritage</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Taylor Martell</td><td>Lampasas</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Rubie Chavez</td><td>San Elizario</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Alyssa Rodriguez</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Summer Rodgers</td><td>Frisco Emerson</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Cheyenne Velasquez</td><td>Comal Davenport</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>145</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Paulina Butler</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Mackenzie Blue</td><td>Northwest</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Malaina Jones</td><td>Klein Oak</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Paris Kelleher</td><td>Princeton</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Christina Decker</td><td>Houston Clear Lake</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Mia Medrano</td><td>Katy Cinco Ranch</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Taylin Silco</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Bronwyn Sadlier</td><td>McAllen</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Lily Doyle</td><td>Argyle</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Haleigh Oglesby</td><td>Canyon</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Aubree Schubert</td><td>Liberty Hill</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Maria Munoz</td><td>San Antonio Edison</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>152</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Hadyn Stine</td><td>Prosper Rock Hill</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Samaria Barnett</td><td>Converse Judson</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Leona Layne</td><td>Rockwall</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Elizabeth Castro</td><td>Cypress Ridge</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Joanna Henry</td><td>Austin Vandegrift</td></tr>
+                <tr><td style="text-align: center;">6</td><td>---***</td><td>---</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Cydney Davis</td><td>El Paso Bel Air</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Jasmine Vick</td><td>Amarillo Palo Duro</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Krystina Baldwin</td><td>Huntsville</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Morgan Green</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Tatum Luley</td><td>Prosper Walnut Grove</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Hallie Harp</td><td>Fort Worth South Hills</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>165</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Aaliyah Finlayson</td><td>Byron Nelson</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Annalisa Afrifa</td><td>Hebron</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Genevieve Seiffert</td><td>Bridgeland</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Isabella Moreno</td><td>El Paso Eastwood</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Zamariya Williams</td><td>Rockwall Heath</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Karen Kime</td><td>Clute Brazoswood</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Xazanya Gonzalez</td><td>Amarillo Palo Duro</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Layla Asana</td><td>Frisco</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Londyn Jefferson</td><td>Frisco Heritage</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Elizabeth Yelle</td><td>Azle</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Loni Stanskas</td><td>Frisco Lone Star</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Natania Workman</td><td>San Antonio Veterans Memorial</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>185</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Carla Campos</td><td>Haltom</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Rylee Ferranti</td><td>Klein Oak</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Asaiya Golphin</td><td>Cibolo Steele</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Blake Baker</td><td>Marcus</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Ana Davis</td><td>Killeen Harker Heights</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Aaliyah Salinas</td><td>South Grand Prairie</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Mareetza Maceda</td><td>Hereford</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Camille Harris</td><td>Frisco Memorial</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Emma Heaton</td><td>Canyon Randall</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Kayla McLearen</td><td>Lubbock Cooper</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Michelle Ramirez</td><td>El Paso Del Valle</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Gabriela Knight</td><td>Comal Smithson Valley</td></tr>
+            </table>
+        </div>
+    </div>
+
+    <h2>235</h2>
+    <div class="table-row-flex">
+        <div class="table-wrapper">
+            <table>
+                <h2>6A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Maliana Heimuli</td><td>Euless Trinity</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Sally Kazeem</td><td>Richmond Foster</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Tiveopa Anthony</td><td>Dallas Skyline</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Kalea Berry</td><td>Cypress Park</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Saniah Ebron</td><td>Killeen Harker Heights</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Evelyn Stack</td><td>Copperas Cove</td></tr>
+            </table>
+        </div>
+        <div class="table-wrapper">
+            <table>
+                <h2>5A</h2>
+                <colgroup>
+                    <col style="width: 5%;">
+                    <col style="width: 45%;">
+                    <col style="width: 50%;">
+                </colgroup>
+                <tr><td style="text-align: center;">1</td><td>Ariana Chavez</td><td>Borger</td></tr>
+                <tr><td style="text-align: center;">2</td><td>Alyciana Rogers</td><td>Liberty Hill</td></tr>
+                <tr><td style="text-align: center;">3</td><td>Khylee Whalen</td><td>Dumas</td></tr>
+                <tr><td style="text-align: center;">4</td><td>Zoie Gomez</td><td>Lubbock Coronado</td></tr>
+                <tr><td style="text-align: center;">5</td><td>Gabriela Garzona</td><td>Frisco</td></tr>
+                <tr><td style="text-align: center;">6</td><td>Sara Lepsis</td><td>Frisco Centennial</td></tr>
+            </table>
+        </div>
+    </div>
+        <p style="text-align: center; max-width: 1000px; margin: auto;"><em>
+            *Boys 6A 132: Javin Jackson-Bey of Allen was disqualified after the semifinals.<br>
+			**Boys 6A 157: Dario Petrucelli of Rockwall was disqualified after the consolation finals.<br>
+			***Girls 6A 152: Mallory Lowe of Euless Trinity was disqualified after the consolation semifinals for flagrant misconduct.
+        </em></p>
+        <h2>
+            See a mistake? Please email me at 
+            <a href="mailto:youtt@txhswrestling.com">youtt@txhswrestling.com</a>.
+        </h2>
+    </body>
+
+</html>
